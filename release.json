@@ -1,7 +1,7 @@
 {
   "hosting": "GitHub Pages",
   "runtimeSource": "S0/online_demo on feature/s0_online_demo",
-  "runtimeSourceCommit": "6fe022ea18c739012548e22fc4dd47233efc58df",
+  "runtimeSourceCommit": "a4f9f68082135a1ee98996fcc98e09d98ddf738d",
   "modelSha256": "e4f393a62ceb64d14fe310dd8f1ac7f9790f945ef22708074ce9e383d0928f3c",
   "modelReconstructionExact": true,
   "lateral": {
@@ -17,9 +17,9 @@
   },
   "files": [
     {
-      "path": "assets/index-BwDoXu8R.js",
+      "path": "assets/index-hafhrv4h.js",
       "bytes": 580536,
-      "sha256": "3a112b6bfd702bd867fc9cb75c70c9455874696706b6dea123bdb8411f0a996f"
+      "sha256": "6bdd3a5ee4f071c087a1a77e0b8e454f6aed329df69d0c96e328bc3802a63d4e"
     },
     {
       "path": "assets/index-z05cCc11.css",
@@ -592,14 +592,14 @@
       "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
     },
     {
-      "path": "assets/sim.worker-Dn9k8lNd.js",
-      "bytes": 201631,
-      "sha256": "fffa9e2cd1a223ce73308f2da79546a9ed17b0a173953a17f3abac1a90fba9bf"
+      "path": "assets/sim.worker-v-gFMvzT.js",
+      "bytes": 205083,
+      "sha256": "11696083581e06280eca1257aaef13bcbc59a1bf98ab40098c01dc1a4bd272fa"
     },
     {
       "path": "index.html",
       "bytes": 796,
-      "sha256": "cfbb86ff18df65429269edacfa45d544ea67b5eb8f24654e396a88f6e799d4a5"
+      "sha256": "7e7a719031b02236755ad2dcfde1f67569c0eab2d60d1e960aa44fb43bb533b3"
     },
     {
       "path": "licenses/mujoco-Apache-2.0.txt",
