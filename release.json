@@ -1,23 +1,35 @@
 {
   "hosting": "GitHub Pages",
   "runtimeSource": "S0/online_demo on feature/s0_online_demo",
+  "runtimeSourceCommit": "6fe022ea18c739012548e22fc4dd47233efc58df",
   "modelSha256": "e4f393a62ceb64d14fe310dd8f1ac7f9790f945ef22708074ce9e383d0928f3c",
   "modelReconstructionExact": true,
+  "lateral": {
+    "id": "lateral-r2-052",
+    "url": "motions/lateral-r2-052.json",
+    "numFrames": 451,
+    "fps": 50,
+    "bytes": 270426,
+    "sha256": "8336c935cc062e08a005adf25e3bff6d52ae33616cf629c3c79a3e1883608712",
+    "referenceSource": "sparse_refined",
+    "referenceFrame": "global",
+    "distanceM": 0.424
+  },
   "files": [
     {
-      "path": "assets/index-5znTkFpq.css",
-      "bytes": 11816,
-      "sha256": "05fe0711aa5e0ed4d980c2b9f7a10f833e332a536579066c070b2fbc25731ed9"
+      "path": "assets/index-BwDoXu8R.js",
+      "bytes": 580536,
+      "sha256": "3a112b6bfd702bd867fc9cb75c70c9455874696706b6dea123bdb8411f0a996f"
     },
     {
-      "path": "assets/index-BLhvWCPr.js",
-      "bytes": 573202,
-      "sha256": "4598e2886d1538a149154868420439225998c32da7a15de379ee9c3840e8060b"
+      "path": "assets/index-z05cCc11.css",
+      "bytes": 12809,
+      "sha256": "2e936abbcb81bbc05c523be9f5599f2015dafd5075307b230db8caad406776d3"
     },
     {
       "path": "assets/manifest.json",
-      "bytes": 90837,
-      "sha256": "f07ee19f70babd5b05c939a2a12cbae5e4c3e8eccdf8dfbb8a66fd58b66c114d"
+      "bytes": 91163,
+      "sha256": "b26f58359667c963a3e04d269e27e2c5f5b3084032cfaf01d962166934d06564"
     },
     {
       "path": "assets/models/test052-20k-e4f393a62ceb.part-00.bin",
@@ -38,6 +50,11 @@
       "path": "assets/models/test052-20k-e4f393a62ceb.part-03.bin",
       "bytes": 4760652,
       "sha256": "5c742a0b251f1b15afb19c961c987dea5dbc7d0a7489ae9e91d8180591b36ffc"
+    },
+    {
+      "path": "assets/motions/lateral-r2-052.json",
+      "bytes": 270426,
+      "sha256": "8336c935cc062e08a005adf25e3bff6d52ae33616cf629c3c79a3e1883608712"
     },
     {
       "path": "assets/motions/letter-A.json",
@@ -575,14 +592,14 @@
       "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
     },
     {
-      "path": "assets/sim.worker-Cx8s1TxV.js",
-      "bytes": 196650,
-      "sha256": "398a9b59fe25bfaebdf486e989c42810b50ac9091dcb0fd714d8edd82214bf97"
+      "path": "assets/sim.worker-Dn9k8lNd.js",
+      "bytes": 201631,
+      "sha256": "fffa9e2cd1a223ce73308f2da79546a9ed17b0a173953a17f3abac1a90fba9bf"
     },
     {
       "path": "index.html",
       "bytes": 796,
-      "sha256": "4525c6edf9f76e371cb8fa0436171853c5c9bb2676936109cec6ed736f5e4809"
+      "sha256": "cfbb86ff18df65429269edacfa45d544ea67b5eb8f24654e396a88f6e799d4a5"
     },
     {
       "path": "licenses/mujoco-Apache-2.0.txt",

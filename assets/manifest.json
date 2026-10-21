@@ -3802,5 +3802,16 @@
     "rightWristPointIndex": 2,
     "containsLateralMotion": false,
     "datasetId": "handwriting_letters_v2"
+  },
+  "lateral": {
+    "id": "lateral-r2-052",
+    "url": "motions/lateral-r2-052.json",
+    "numFrames": 451,
+    "fps": 50,
+    "bytes": 270426,
+    "sha256": "8336c935cc062e08a005adf25e3bff6d52ae33616cf629c3c79a3e1883608712",
+    "referenceSource": "sparse_refined",
+    "referenceFrame": "global",
+    "distanceM": 0.424
   }
 }

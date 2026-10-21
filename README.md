@@ -1,7 +1,9 @@
 # S0 Tracker browser demo
 
-Public static release: 26 single letters, seven preset motions, full BrainCo G1 visuals, MuJoCo WASM and test052 20k. Simulation, policy inference and actual right-wrist ink run on each visitor’s computer. No inference backend.
+Public static release: continuous multi-word writing, 26 single letters, seven preset motions, full BrainCo G1 visuals, MuJoCo WASM and test052 20k. Simulation, policy inference and actual right-wrist ink run on each visitor’s computer. No inference backend.
 
-Use `?letter=A` to open single-letter mode. There is no lateral transfer or word composition. Native validation, raw NPZ files, recordings and internal reports are excluded. See release.json and the included licenses.
+Use `?word=HELLO+WORLD` for continuous writing, or `?letter=A` for a single letter. Up to 32 letters; internal spaces are preserved. Each space adds one extra frozen r2-052 transfer (0.424 m reference displacement, 6 s movement + 3 s hold). The whole sequence uses one physical initialization and uninterrupted policy history. Final ink shows actual tracking error.
 
-Rebuild in the canonical project: `npm ci`, `npm run build`, `node tools/prepare-pages.mjs /absolute/path/to/this-checkout`. Commit and push this generated repository to update GitHub Pages.
+Native validation, raw NPZ files, recordings and internal reports are excluded. See release.json and the included licenses.
+
+Rebuild in the canonical project: `npm ci`, `npm run build`, then `S0_SOURCE_COMMIT=<full-source-commit> node tools/prepare-pages.mjs /absolute/path/to/this-checkout`. Commit and push this generated repository to update the same GitHub Pages URL.
