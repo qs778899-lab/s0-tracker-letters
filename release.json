@@ -1,7 +1,7 @@
 {
   "hosting": "GitHub Pages",
   "runtimeSource": "S0/online_demo on feature/s0_online_demo",
-  "runtimeSourceCommit": "a4f9f68082135a1ee98996fcc98e09d98ddf738d",
+  "runtimeSourceCommit": "2c46fc90de724152fee99588a59322f592532902",
   "modelSha256": "e4f393a62ceb64d14fe310dd8f1ac7f9790f945ef22708074ce9e383d0928f3c",
   "modelReconstructionExact": true,
   "lateral": {
@@ -17,9 +17,9 @@
   },
   "files": [
     {
-      "path": "assets/index-hafhrv4h.js",
-      "bytes": 580536,
-      "sha256": "6bdd3a5ee4f071c087a1a77e0b8e454f6aed329df69d0c96e328bc3802a63d4e"
+      "path": "assets/index-DHT14twT.js",
+      "bytes": 580619,
+      "sha256": "8b9d07020010aa2a361f65374c636ac4b017ff52a904e79cb6cbd7ab3e48ccf5"
     },
     {
       "path": "assets/index-z05cCc11.css",
@@ -599,7 +599,7 @@
     {
       "path": "index.html",
       "bytes": 796,
-      "sha256": "7e7a719031b02236755ad2dcfde1f67569c0eab2d60d1e960aa44fb43bb533b3"
+      "sha256": "c93d8ba10e06c2b749cc206a2f872af9c9304bfce1865e95ebef49c4bfe36ecd"
     },
     {
       "path": "licenses/mujoco-Apache-2.0.txt",
