@@ -617,14 +617,18 @@
     "velocityLimitEnforced": false
   },
   "visuals": {
-    "source": "g1_brainco/main.urdf <visual>",
-    "urdfSha256": "bd009a59d0ac5f6afd283920e75d19400a68816e20253c2309f603432fb7c8fc",
+    "profile": "g1_1020_visual_only",
+    "source": "1020_G1_New_assemble_MuJoCo.zip",
+    "sourceArchiveSha256": "5c91465700f531f1c70b1d16cbcd9c8beab63df35aba6748e6b77a3be725c6a9",
+    "urdfSha256": "02e4391ee10fe141cce70847bcc40eb083f812b6a974393c32c03ea9fdb194d1",
+    "expectedComponents": 76,
     "components": [
       {
         "name": "pelvis:visual:0",
+        "sourceBodyName": "pelvis",
         "bodyName": "pelvis",
         "bodyId": 1,
-        "meshUrl": "robot/visual/5ba6bbc888e630550140.stl",
+        "meshUrl": "robot/appearance-1020/9a249feb95d632aa648c.stl",
         "position": [
           0,
           0,
@@ -642,47 +646,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "black"
-      },
-      {
-        "name": "pelvis_contour_link:visual:0",
-        "bodyName": "pelvis_contour_link",
-        "bodyId": 2,
-        "meshUrl": "robot/visual/5cc5c2c7a312329e3fee.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          0.05,
-          0.05,
-          0.05,
-          1
-        ],
-        "materialName": "black"
+        "materialName": "archon_black"
       },
       {
         "name": "left_hip_pitch_link:visual:0",
+        "sourceBodyName": "left_hip_pitch_link",
         "bodyName": "left_hip_pitch_link",
         "bodyId": 3,
-        "meshUrl": "robot/visual/4725168105ee768ee316.stl",
+        "meshUrl": "robot/appearance-1020/4725168105ee768ee316.stl",
         "position": [
           0,
           0,
@@ -700,18 +676,19 @@
           1
         ],
         "rgba": [
-          0.2,
-          0.2,
-          0.2,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "dark"
+        "materialName": "archon_black"
       },
       {
         "name": "left_hip_roll_link:visual:0",
+        "sourceBodyName": "left_hip_roll_link",
         "bodyName": "left_hip_roll_link",
         "bodyId": 4,
-        "meshUrl": "robot/visual/91f25922ee8a7c315279.stl",
+        "meshUrl": "robot/appearance-1020/91f25922ee8a7c315279.stl",
         "position": [
           0,
           0,
@@ -729,18 +706,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_hip_yaw_link:visual:0",
+        "sourceBodyName": "left_hip_yaw_link",
         "bodyName": "left_hip_yaw_link",
         "bodyId": 5,
-        "meshUrl": "robot/visual/a16d88aa6ddac8083aa7.stl",
+        "meshUrl": "robot/appearance-1020/a16d88aa6ddac8083aa7.stl",
         "position": [
           0,
           0,
@@ -758,18 +736,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_knee_link:visual:0",
+        "sourceBodyName": "left_knee_link",
         "bodyName": "left_knee_link",
         "bodyId": 6,
-        "meshUrl": "robot/visual/8d92b9e3d3a636761150.stl",
+        "meshUrl": "robot/appearance-1020/8d92b9e3d3a636761150.stl",
         "position": [
           0,
           0,
@@ -787,18 +766,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_ankle_pitch_link:visual:0",
+        "sourceBodyName": "left_ankle_pitch_link",
         "bodyName": "left_ankle_pitch_link",
         "bodyId": 7,
-        "meshUrl": "robot/visual/d49e3abc6f5b12e53206.stl",
+        "meshUrl": "robot/appearance-1020/d49e3abc6f5b12e53206.stl",
         "position": [
           0,
           0,
@@ -816,18 +796,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "black"
+        "materialName": "archon_black"
       },
       {
         "name": "left_ankle_roll_link:visual:0",
+        "sourceBodyName": "left_ankle_roll_link",
         "bodyName": "left_ankle_roll_link",
         "bodyId": 8,
-        "meshUrl": "robot/visual/c4092af943141d4d9f74.stl",
+        "meshUrl": "robot/appearance-1020/c4092af943141d4d9f74.stl",
         "position": [
           0,
           0,
@@ -845,18 +826,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.00651209,
+          0.00749903,
+          0.00856813,
           1
         ],
-        "materialName": "black"
+        "materialName": "archon_rubber"
       },
       {
         "name": "right_hip_pitch_link:visual:0",
+        "sourceBodyName": "right_hip_pitch_link",
         "bodyName": "right_hip_pitch_link",
         "bodyId": 10,
-        "meshUrl": "robot/visual/e4f3c99d7f4a7d34eadb.stl",
+        "meshUrl": "robot/appearance-1020/e4f3c99d7f4a7d34eadb.stl",
         "position": [
           0,
           0,
@@ -874,18 +856,19 @@
           1
         ],
         "rgba": [
-          0.2,
-          0.2,
-          0.2,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "dark"
+        "materialName": "archon_black"
       },
       {
         "name": "right_hip_roll_link:visual:0",
+        "sourceBodyName": "right_hip_roll_link",
         "bodyName": "right_hip_roll_link",
         "bodyId": 11,
-        "meshUrl": "robot/visual/4c254ef66a356f492947.stl",
+        "meshUrl": "robot/appearance-1020/4c254ef66a356f492947.stl",
         "position": [
           0,
           0,
@@ -903,18 +886,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_hip_yaw_link:visual:0",
+        "sourceBodyName": "right_hip_yaw_link",
         "bodyName": "right_hip_yaw_link",
         "bodyId": 12,
-        "meshUrl": "robot/visual/e479c2936ca2057e9eb2.stl",
+        "meshUrl": "robot/appearance-1020/e479c2936ca2057e9eb2.stl",
         "position": [
           0,
           0,
@@ -932,18 +916,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_knee_link:visual:0",
+        "sourceBodyName": "right_knee_link",
         "bodyName": "right_knee_link",
         "bodyId": 13,
-        "meshUrl": "robot/visual/63c4008449c9bbe701a6.stl",
+        "meshUrl": "robot/appearance-1020/63c4008449c9bbe701a6.stl",
         "position": [
           0,
           0,
@@ -961,18 +946,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_ankle_pitch_link:visual:0",
+        "sourceBodyName": "right_ankle_pitch_link",
         "bodyName": "right_ankle_pitch_link",
         "bodyId": 14,
-        "meshUrl": "robot/visual/15be426539ec1be70246.stl",
+        "meshUrl": "robot/appearance-1020/15be426539ec1be70246.stl",
         "position": [
           0,
           0,
@@ -990,18 +976,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "black"
+        "materialName": "archon_black"
       },
       {
         "name": "right_ankle_roll_link:visual:0",
+        "sourceBodyName": "right_ankle_roll_link",
         "bodyName": "right_ankle_roll_link",
         "bodyId": 15,
-        "meshUrl": "robot/visual/4b66222ea56653e62771.stl",
+        "meshUrl": "robot/appearance-1020/4b66222ea56653e62771.stl",
         "position": [
           0,
           0,
@@ -1019,18 +1006,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.00651209,
+          0.00749903,
+          0.00856813,
           1
         ],
-        "materialName": "black"
+        "materialName": "archon_rubber"
       },
       {
         "name": "waist_yaw_link:visual:0",
+        "sourceBodyName": "waist_yaw_link",
         "bodyName": "waist_yaw_link",
         "bodyId": 17,
-        "meshUrl": "robot/visual/ec6db442b11f25eed898.stl",
+        "meshUrl": "robot/appearance-1020/ec6db442b11f25eed898.stl",
         "position": [
           0,
           0,
@@ -1048,18 +1036,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_black"
       },
       {
         "name": "waist_roll_link:visual:0",
+        "sourceBodyName": "waist_roll_link",
         "bodyName": "waist_roll_link",
         "bodyId": 18,
-        "meshUrl": "robot/visual/b67c347a05abc3e8ddae.stl",
+        "meshUrl": "robot/appearance-1020/b67c347a05abc3e8ddae.stl",
         "position": [
           0,
           0,
@@ -1077,18 +1066,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.00972122,
+          0.01161225,
+          0.01298303,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_black"
       },
       {
         "name": "torso_link:visual:0",
+        "sourceBodyName": "torso_link",
         "bodyName": "torso_link",
         "bodyId": 19,
-        "meshUrl": "robot/visual/11ddb46f2098efbbd881.stl",
+        "meshUrl": "robot/appearance-1020/11ddb46f2098efbbd881.stl",
         "position": [
           0,
           0,
@@ -1106,76 +1096,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
-      },
-      {
-        "name": "logo_link:visual:0",
-        "bodyName": "logo_link",
-        "bodyId": 20,
-        "meshUrl": "robot/visual/8571a0a19bc4916fa55f.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          0.2,
-          0.2,
-          0.2,
-          1
-        ],
-        "materialName": "dark"
-      },
-      {
-        "name": "head_link:visual:0",
-        "bodyName": "head_link",
-        "bodyId": 21,
-        "meshUrl": "robot/visual/005fb67fbd3eff94aa8b.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          0.2,
-          0.2,
-          0.2,
-          1
-        ],
-        "materialName": "dark"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_shoulder_pitch_link:visual:0",
+        "sourceBodyName": "left_shoulder_pitch_link",
         "bodyName": "left_shoulder_pitch_link",
         "bodyId": 24,
-        "meshUrl": "robot/visual/f0d1cfd02fcf0d42f95e.stl",
+        "meshUrl": "robot/appearance-1020/f0d1cfd02fcf0d42f95e.stl",
         "position": [
           0,
           0,
@@ -1193,18 +1126,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_shoulder_roll_link:visual:0",
+        "sourceBodyName": "left_shoulder_roll_link",
         "bodyName": "left_shoulder_roll_link",
         "bodyId": 25,
-        "meshUrl": "robot/visual/fb9df21687773522598d.stl",
+        "meshUrl": "robot/appearance-1020/fb9df21687773522598d.stl",
         "position": [
           0,
           0,
@@ -1222,18 +1156,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_shoulder_yaw_link:visual:0",
+        "sourceBodyName": "left_shoulder_yaw_link",
         "bodyName": "left_shoulder_yaw_link",
         "bodyId": 26,
-        "meshUrl": "robot/visual/1aa97e9748e924336567.stl",
+        "meshUrl": "robot/appearance-1020/1aa97e9748e924336567.stl",
         "position": [
           0,
           0,
@@ -1251,18 +1186,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_elbow_link:visual:0",
+        "sourceBodyName": "left_elbow_link",
         "bodyName": "left_elbow_link",
         "bodyId": 27,
-        "meshUrl": "robot/visual/fa752198accd104d5c4c.stl",
+        "meshUrl": "robot/appearance-1020/fa752198accd104d5c4c.stl",
         "position": [
           0,
           0,
@@ -1280,18 +1216,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "left_wrist_roll_link:visual:0",
+        "sourceBodyName": "left_wrist_roll_link",
         "bodyName": "left_wrist_roll_link",
         "bodyId": 28,
-        "meshUrl": "robot/visual/edc387c9a0ba8c2237e9.stl",
+        "meshUrl": "robot/appearance-1020/2e1be7b7d36f54ef1193.stl",
         "position": [
           0,
           0,
@@ -1309,18 +1246,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.7,
+          0.7,
+          0.7,
           1
         ],
-        "materialName": "black"
+        "materialName": "left_wrist_roll_link_material"
       },
       {
         "name": "left_wrist_pitch_link:visual:0",
+        "sourceBodyName": "left_wrist_pitch_link",
         "bodyName": "left_wrist_pitch_link",
         "bodyId": 29,
-        "meshUrl": "robot/visual/b251d8e05047f695d0f5.stl",
+        "meshUrl": "robot/appearance-1020/5c4cbe6beddeb6e80c1a.stl",
         "position": [
           0,
           0,
@@ -1338,18 +1276,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.7,
+          0.7,
+          0.7,
           1
         ],
-        "materialName": "black"
+        "materialName": "left_wrist_pitch_link_material"
       },
       {
         "name": "left_wrist_yaw_link:visual:0",
+        "sourceBodyName": "left_wrist_yaw_link",
         "bodyName": "left_wrist_yaw_link",
         "bodyId": 30,
-        "meshUrl": "robot/visual/83f8fb3a726bf9613d65.stl",
+        "meshUrl": "robot/appearance-1020/4a340f1121c710cac0f7.stl",
         "position": [
           0,
           0,
@@ -1367,28 +1306,29 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.7,
+          0.7,
+          0.7,
           1
         ],
-        "materialName": "black"
+        "materialName": "left_wrist_v5"
       },
       {
         "name": "left_base2_link:visual:0",
-        "bodyName": "left_base2_link",
-        "bodyId": 31,
-        "meshUrl": "robot/visual/1a0ca805910d235ea1ba.stl",
+        "sourceBodyName": "left_base2_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/1fe2d033a63652bf9af9.stl",
         "position": [
-          0,
-          0,
-          0
+          0.059000062137,
+          -0.000850399730441,
+          -0.00150052992497
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          -0.499956497312684,
+          0.49995649731023567,
+          -0.5000434989026775,
+          0.5000434989051258
         ],
         "scale": [
           1,
@@ -1396,511 +1336,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.16,
+          0.17,
+          0.18,
           1
         ],
-        "materialName": "white"
-      },
-      {
-        "name": "left_base_link:visual:0",
-        "bodyName": "left_base_link",
-        "bodyId": 32,
-        "meshUrl": "robot/visual/d8851e50188ac14edba1.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_thumb_metacarpal_Link:visual:0",
-        "bodyName": "left_thumb_metacarpal_Link",
-        "bodyId": 33,
-        "meshUrl": "robot/visual/415a75193e7773572b0d.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_thumb_proximal_Link:visual:0",
-        "bodyName": "left_thumb_proximal_Link",
-        "bodyId": 34,
-        "meshUrl": "robot/visual/191650b13c24d76d7cf5.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_thumb_distal_Link:visual:0",
-        "bodyName": "left_thumb_distal_Link",
-        "bodyId": 35,
-        "meshUrl": "robot/visual/db9d74a4c4025b3d14fb.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_thumb_tip_Link:visual:0",
-        "bodyName": "left_thumb_tip_Link",
-        "bodyId": 36,
-        "meshUrl": "robot/visual/5177296e2426d118cc15.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_index_proximal_Link:visual:0",
-        "bodyName": "left_index_proximal_Link",
-        "bodyId": 37,
-        "meshUrl": "robot/visual/1fed32c1a8451282b314.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_index_distal_Link:visual:0",
-        "bodyName": "left_index_distal_Link",
-        "bodyId": 38,
-        "meshUrl": "robot/visual/188a5ef9e447ee78932d.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_index_tip_Link:visual:0",
-        "bodyName": "left_index_tip_Link",
-        "bodyId": 39,
-        "meshUrl": "robot/visual/9f5a11d72375073e8373.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_middle_proximal_Link:visual:0",
-        "bodyName": "left_middle_proximal_Link",
-        "bodyId": 40,
-        "meshUrl": "robot/visual/50122ebf6e75698ba2c4.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_middle_distal_Link:visual:0",
-        "bodyName": "left_middle_distal_Link",
-        "bodyId": 41,
-        "meshUrl": "robot/visual/cc4dec97e13c6be231b0.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_middle_tip_Link:visual:0",
-        "bodyName": "left_middle_tip_Link",
-        "bodyId": 42,
-        "meshUrl": "robot/visual/ef4ac885d12e60391872.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_ring_proximal_Link:visual:0",
-        "bodyName": "left_ring_proximal_Link",
-        "bodyId": 43,
-        "meshUrl": "robot/visual/77220c07d5bbc119cb82.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_ring_distal_Link:visual:0",
-        "bodyName": "left_ring_distal_Link",
-        "bodyId": 44,
-        "meshUrl": "robot/visual/100a748e3038ed3ce596.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_ring_tip_Link:visual:0",
-        "bodyName": "left_ring_tip_Link",
-        "bodyId": 45,
-        "meshUrl": "robot/visual/870a5b7890a41c8fb8e9.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_pinky_proximal_Link:visual:0",
-        "bodyName": "left_pinky_proximal_Link",
-        "bodyId": 46,
-        "meshUrl": "robot/visual/9f1408568638fbbec4cf.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_pinky_distal_Link:visual:0",
-        "bodyName": "left_pinky_distal_Link",
-        "bodyId": 47,
-        "meshUrl": "robot/visual/a2f6a2150559d01e6f07.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
-      },
-      {
-        "name": "left_pinky_tip_Link:visual:0",
-        "bodyName": "left_pinky_tip_Link",
-        "bodyId": 48,
-        "meshUrl": "robot/visual/56eae1cc71cf6acab0a2.stl",
-        "position": [
-          0,
-          0,
-          0
-        ],
-        "quaternion": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "rgba": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "materialName": ""
+        "materialName": "left_hand_adapter_material"
       },
       {
         "name": "right_shoulder_pitch_link:visual:0",
+        "sourceBodyName": "right_shoulder_pitch_link",
         "bodyName": "right_shoulder_pitch_link",
         "bodyId": 49,
-        "meshUrl": "robot/visual/24cdb387e0128dfe6027.stl",
+        "meshUrl": "robot/appearance-1020/24cdb387e0128dfe6027.stl",
         "position": [
           0,
           0,
@@ -1918,18 +1366,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_shoulder_roll_link:visual:0",
+        "sourceBodyName": "right_shoulder_roll_link",
         "bodyName": "right_shoulder_roll_link",
         "bodyId": 50,
-        "meshUrl": "robot/visual/962b97c48f9ce9e8399f.stl",
+        "meshUrl": "robot/appearance-1020/962b97c48f9ce9e8399f.stl",
         "position": [
           0,
           0,
@@ -1947,18 +1396,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_shoulder_yaw_link:visual:0",
+        "sourceBodyName": "right_shoulder_yaw_link",
         "bodyName": "right_shoulder_yaw_link",
         "bodyId": 51,
-        "meshUrl": "robot/visual/a0b76489271da0c72461.stl",
+        "meshUrl": "robot/appearance-1020/a0b76489271da0c72461.stl",
         "position": [
           0,
           0,
@@ -1976,18 +1426,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_elbow_link:visual:0",
+        "sourceBodyName": "right_elbow_link",
         "bodyName": "right_elbow_link",
         "bodyId": 52,
-        "meshUrl": "robot/visual/1be925d7aa268bb8fddf.stl",
+        "meshUrl": "robot/appearance-1020/1be925d7aa268bb8fddf.stl",
         "position": [
           0,
           0,
@@ -2005,18 +1456,19 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.462077,
+          0.496933,
+          0.51491767,
           1
         ],
-        "materialName": "white"
+        "materialName": "archon_silver"
       },
       {
         "name": "right_wrist_roll_link:visual:0",
+        "sourceBodyName": "right_wrist_roll_link",
         "bodyName": "right_wrist_roll_link",
         "bodyId": 53,
-        "meshUrl": "robot/visual/a7ee9212ff5b94d6cb7f.stl",
+        "meshUrl": "robot/appearance-1020/5959c2ee4df1f14ae840.stl",
         "position": [
           0,
           0,
@@ -2034,18 +1486,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.7,
+          0.7,
+          0.7,
           1
         ],
-        "materialName": "black"
+        "materialName": "right_wrist_roll_link_material"
       },
       {
         "name": "right_wrist_pitch_link:visual:0",
+        "sourceBodyName": "right_wrist_pitch_link",
         "bodyName": "right_wrist_pitch_link",
         "bodyId": 54,
-        "meshUrl": "robot/visual/d22f8f3b3127f15a63e5.stl",
+        "meshUrl": "robot/appearance-1020/b0b2a3153c9cb576ef32.stl",
         "position": [
           0,
           0,
@@ -2063,18 +1516,19 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.7,
+          0.7,
+          0.7,
           1
         ],
-        "materialName": "black"
+        "materialName": "right_wrist_pitch_link_material"
       },
       {
         "name": "right_wrist_yaw_link:visual:0",
+        "sourceBodyName": "right_wrist_yaw_link",
         "bodyName": "right_wrist_yaw_link",
         "bodyId": 55,
-        "meshUrl": "robot/visual/bc9dece2d12509707e00.stl",
+        "meshUrl": "robot/appearance-1020/3322fefc17fbb4361db0.stl",
         "position": [
           0,
           0,
@@ -2092,22 +1546,53 @@
           1
         ],
         "rgba": [
-          0.05,
-          0.05,
-          0.05,
+          0.7,
+          0.7,
+          0.7,
           1
         ],
-        "materialName": "black"
+        "materialName": "right_wrist_v5"
       },
       {
         "name": "right_base2_link:visual:0",
-        "bodyName": "right_base2_link",
-        "bodyId": 56,
-        "meshUrl": "robot/visual/1a0ca805910d235ea1ba.stl",
+        "sourceBodyName": "right_base2_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/1b7f9d1922c59fdf1b63.stl",
         "position": [
-          0,
-          0,
-          0
+          0.059,
+          0.000851550928178,
+          0.00349947007503
+        ],
+        "quaternion": [
+          0.5000000000024486,
+          0.49999999999999967,
+          0.49999999999755207,
+          0.49999999999999967
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.16,
+          0.17,
+          0.18,
+          1
+        ],
+        "materialName": "right_hand_adapter_material"
+      },
+      {
+        "name": "neck_link:visual:0",
+        "sourceBodyName": "neck_link",
+        "bodyName": "torso_link",
+        "bodyId": 19,
+        "meshUrl": "robot/appearance-1020/9fb6699711444f1e1906.stl",
+        "position": [
+          0.0124599976357,
+          -0.00102960254131,
+          0.357160561929
         ],
         "quaternion": [
           1,
@@ -2121,28 +1606,659 @@
           1
         ],
         "rgba": [
-          0.7,
-          0.7,
-          0.7,
+          0.15,
+          0.16,
+          0.18,
           1
         ],
-        "materialName": "white"
+        "materialName": "neck_link_material"
+      },
+      {
+        "name": "head_yaw_link:visual:0",
+        "sourceBodyName": "head_yaw_link",
+        "bodyName": "torso_link",
+        "bodyId": 19,
+        "meshUrl": "robot/appearance-1020/5a23e6d7eddd9123d4ee.stl",
+        "position": [
+          0.0124599976357,
+          -0.00102960254131,
+          0.357160561929
+        ],
+        "quaternion": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.35,
+          0.37,
+          0.4,
+          1
+        ],
+        "materialName": "head_yaw_link_material"
+      },
+      {
+        "name": "head_link:visual:0",
+        "sourceBodyName": "head_link",
+        "bodyName": "torso_link",
+        "bodyId": 19,
+        "meshUrl": "robot/appearance-1020/29cff1ec1d83714a0909.stl",
+        "position": [
+          0.0124599976357,
+          -0.00102960254131,
+          0.39716056192899996
+        ],
+        "quaternion": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.85,
+          0.86,
+          0.88,
+          1
+        ],
+        "materialName": "head_link_material"
+      },
+      {
+        "name": "left_base_link:visual:0",
+        "sourceBodyName": "left_base_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/340401f796bbac762cf8.stl",
+        "position": [
+          0.059000062137,
+          -0.000850399730441,
+          -0.00150052992497
+        ],
+        "quaternion": [
+          -0.499956497312684,
+          0.49995649731023567,
+          -0.5000434989026775,
+          0.5000434989051258
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_base_link_material_0"
+      },
+      {
+        "name": "left_base_link:visual:1",
+        "sourceBodyName": "left_base_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/d9d2558da8369d2f0993.stl",
+        "position": [
+          0.059000062137,
+          -0.000850399730441,
+          -0.00150052992497
+        ],
+        "quaternion": [
+          -0.499956497312684,
+          0.49995649731023567,
+          -0.5000434989026775,
+          0.5000434989051258
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_base_link_material_1"
+      },
+      {
+        "name": "left_thumb_metacarpal_link:visual:0",
+        "sourceBodyName": "left_thumb_metacarpal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/415a75193e7773572b0d.stl",
+        "position": [
+          0.08682427870134768,
+          -0.005355241300918567,
+          0.017499470075166244
+        ],
+        "quaternion": [
+          0.5518795769670884,
+          -0.4419774114866419,
+          0.5519564907971636,
+          -0.4420734469848601
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_thumb_metacarpal_link_material_0"
+      },
+      {
+        "name": "left_thumb_proximal_link:visual:0",
+        "sourceBodyName": "left_thumb_proximal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/ccffe779ed683ec5c2f2.stl",
+        "position": [
+          0.08682373790876072,
+          -0.008463187360684086,
+          0.031382848626409866
+        ],
+        "quaternion": [
+          0.37215077349124925,
+          -0.4938123356138401,
+          0.651528517680571,
+          -0.4395040041164892
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_thumb_proximal_link_material_0"
+      },
+      {
+        "name": "left_thumb_proximal_link:visual:1",
+        "sourceBodyName": "left_thumb_proximal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/bcd5279fb8a4d8ba4b06.stl",
+        "position": [
+          0.08682373790876072,
+          -0.008463187360684086,
+          0.031382848626409866
+        ],
+        "quaternion": [
+          0.37215077349124925,
+          -0.4938123356138401,
+          0.651528517680571,
+          -0.4395040041164892
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_thumb_proximal_link_material_1"
+      },
+      {
+        "name": "left_thumb_distal_link:visual:0",
+        "sourceBodyName": "left_thumb_distal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/99300669452dc8e34d5f.stl",
+        "position": [
+          0.10327352855960369,
+          -0.015013690547046515,
+          0.08027554026379974
+        ],
+        "quaternion": [
+          0.3974849525738838,
+          -0.47365866770478116,
+          0.6276337002484357,
+          -0.4730001239935629
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_thumb_distal_link_material_0"
+      },
+      {
+        "name": "left_thumb_touch_link:visual:0",
+        "sourceBodyName": "left_thumb_touch_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/e31a6aa8faf2be8a6bfc.stl",
+        "position": [
+          0.11355975352301642,
+          -0.018115973937299693,
+          0.09188638587161935
+        ],
+        "quaternion": [
+          0.4373303415683083,
+          -0.437137270612193,
+          0.5839294149285783,
+          -0.5260034385502033
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_thumb_touch_link_material_0"
+      },
+      {
+        "name": "left_index_proximal_link:visual:0",
+        "sourceBodyName": "left_index_proximal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/1fed32c1a8451282b314.stl",
+        "position": [
+          0.13987643239190747,
+          0.0012704275557123082,
+          0.028077470075426016
+        ],
+        "quaternion": [
+          0.5241254520838958,
+          -0.38956322528872683,
+          0.5502891748658477,
+          -0.5203026311733981
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_index_proximal_link_material_0"
+      },
+      {
+        "name": "left_index_distal_link:visual:0",
+        "sourceBodyName": "left_index_distal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/634d5c569628c3c2dbc9.stl",
+        "position": [
+          0.17130755774739906,
+          -0.003986334301518047,
+          0.030984498397225006
+        ],
+        "quaternion": [
+          0.5241254520838958,
+          -0.38956322528872683,
+          0.5502891748658477,
+          -0.5203026311733981
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_index_distal_link_material_0"
+      },
+      {
+        "name": "left_index_touch_link:visual:0",
+        "sourceBodyName": "left_index_touch_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/821249c18a0cf66c87aa.stl",
+        "position": [
+          0.19206427664745795,
+          -0.021936696442578372,
+          0.03061580135529644
+        ],
+        "quaternion": [
+          0.3797468824779308,
+          -0.2560352126708632,
+          0.658268919777454,
+          -0.5974280746465656
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_index_touch_link_material_0"
+      },
+      {
+        "name": "left_middle_proximal_link:visual:0",
+        "sourceBodyName": "left_middle_proximal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/50122ebf6e75698ba2c4.stl",
+        "position": [
+          0.14399386013390636,
+          0.0037283111473831957,
+          0.008560470075446178
+        ],
+        "quaternion": [
+          0.48347134247338613,
+          -0.4385100418444104,
+          0.5406390532463378,
+          -0.5307295152085467
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_middle_proximal_link_material_0"
+      },
+      {
+        "name": "left_middle_distal_link:visual:0",
+        "sourceBodyName": "left_middle_distal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/e0ff6f648bbb7712bbc7.stl",
+        "position": [
+          0.18055827473227093,
+          -0.0018162175896275392,
+          0.009701428516128445
+        ],
+        "quaternion": [
+          0.44832055921563524,
+          -0.40407577894961333,
+          0.5701261273373592,
+          -0.5573936131479699
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_middle_distal_link_material_0"
+      },
+      {
+        "name": "left_middle_touch_link:visual:0",
+        "sourceBodyName": "left_middle_touch_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/c91b30341a816ac079ec.stl",
+        "position": [
+          0.20447121743312957,
+          -0.021574748040162454,
+          0.009605805188765873
+        ],
+        "quaternion": [
+          0.3425068730466949,
+          -0.3011452902534229,
+          0.6393153891499014,
+          -0.6190931991793053
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_middle_touch_link_material_0"
+      },
+      {
+        "name": "left_ring_proximal_link:visual:0",
+        "sourceBodyName": "left_ring_proximal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/77220c07d5bbc119cb82.stl",
+        "position": [
+          0.14298287654040975,
+          0.003822687063176387,
+          -0.011526529924558774
+        ],
+        "quaternion": [
+          -0.4387992272724575,
+          0.48376635008046814,
+          -0.53049023313462,
+          0.5403753040468195
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_ring_proximal_link_material_0"
+      },
+      {
+        "name": "left_ring_distal_link:visual:0",
+        "sourceBodyName": "left_ring_distal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/c59b62ef04c9cb436f6a.stl",
+        "position": [
+          0.17757646304252844,
+          -0.0013844393668019407,
+          -0.012608013749056877
+        ],
+        "quaternion": [
+          -0.4043795150307733,
+          0.4486316528287769,
+          -0.5571730944056845,
+          0.5698815585487836
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_ring_distal_link_material_0"
+      },
+      {
+        "name": "left_ring_touch_link:visual:0",
+        "sourceBodyName": "left_ring_touch_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/c2fb7d2c4fb0df91209a.stl",
+        "position": [
+          0.20106236109154813,
+          -0.02050763795286592,
+          -0.012528838822375791
+        ],
+        "quaternion": [
+          -0.30148270491990714,
+          0.3428557097609189,
+          -0.6189287745292712,
+          0.6391285574735395
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_ring_touch_link_material_0"
+      },
+      {
+        "name": "left_pinky_proximal_link:visual:0",
+        "sourceBodyName": "left_pinky_proximal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/9f1408568638fbbec4cf.stl",
+        "position": [
+          0.1376944739075875,
+          0.0015092072270512312,
+          -0.03085652992458467
+        ],
+        "quaternion": [
+          -0.3902214049761855,
+          0.5248245215528697,
+          -0.5198083673351426,
+          0.5496232690885517
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_pinky_proximal_link_material_0"
+      },
+      {
+        "name": "left_pinky_distal_link:visual:0",
+        "sourceBodyName": "left_pinky_distal_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/d52822897dcc0de60fff.stl",
+        "position": [
+          0.16618964890549742,
+          -0.003183051468253266,
+          -0.03350373792072452
+        ],
+        "quaternion": [
+          -0.3902214049761855,
+          0.5248245215528697,
+          -0.5198083673351426,
+          0.5496232690885517
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_pinky_distal_link_material_0"
+      },
+      {
+        "name": "left_pinky_touch_link:visual:0",
+        "sourceBodyName": "left_pinky_touch_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/850ad4ad9daf4188aa17.stl",
+        "position": [
+          0.1849204603344321,
+          -0.020254625456362925,
+          -0.03303305673118311
+        ],
+        "quaternion": [
+          -0.25679130155555224,
+          0.3805831432993352,
+          -0.5971027642697866,
+          0.6577864299171753
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "left_pinky_touch_link_material_0"
       },
       {
         "name": "right_base_link:visual:0",
-        "bodyName": "right_base_link",
-        "bodyId": 57,
-        "meshUrl": "robot/visual/c506bceeb28732ea1220.stl",
+        "sourceBodyName": "right_base_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/2754b59a9132a04a28cf.stl",
         "position": [
-          0,
-          0,
-          0
+          0.059,
+          0.000851550928178,
+          0.00349947007503
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.5000000000024486,
+          0.49999999999999967,
+          0.49999999999755207,
+          0.49999999999999967
         ],
         "scale": [
           1,
@@ -2155,23 +2271,54 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_base_link_material_0"
+      },
+      {
+        "name": "right_base_link:visual:1",
+        "sourceBodyName": "right_base_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/7357830cda11d9749adc.stl",
+        "position": [
+          0.059,
+          0.000851550928178,
+          0.00349947007503
+        ],
+        "quaternion": [
+          0.5000000000024486,
+          0.49999999999999967,
+          0.49999999999755207,
+          0.49999999999999967
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "materialName": "right_base_link_material_1"
       },
       {
         "name": "right_thumb_metacarpal_link:visual:0",
-        "bodyName": "right_thumb_metacarpal_link",
-        "bodyId": 58,
-        "meshUrl": "robot/visual/bf007bb8ddfd1eda5eba.stl",
+        "sourceBodyName": "right_thumb_metacarpal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/15464fa122dddc49a564.stl",
         "position": [
-          0,
-          0,
-          0
+          0.08682499999993024,
+          0.00647055092804178,
+          0.02336647007516624
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.5519180359733702,
+          0.44202543090892615,
+          0.5519180359685032,
+          0.44202543090838803
         ],
         "scale": [
           1,
@@ -2184,23 +2331,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_thumb_metacarpal_link_material_0"
       },
       {
         "name": "right_thumb_proximal_link:visual:0",
-        "bodyName": "right_thumb_proximal_link",
-        "bodyId": 59,
-        "meshUrl": "robot/visual/b1d8154a4f00bb6237b5.stl",
+        "sourceBodyName": "right_thumb_proximal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/0c415499f0b28609062d.stl",
         "position": [
-          0,
-          0,
-          0
+          0.08682499999987747,
+          0.009578497034857133,
+          0.03724984862640985
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.3721890096321121,
+          0.4938690177650933,
+          0.6514855527539963,
+          0.4394716247422916
         ],
         "scale": [
           1,
@@ -2213,23 +2361,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_thumb_proximal_link_material_0"
       },
       {
         "name": "right_thumb_distal_link:visual:0",
-        "bodyName": "right_thumb_distal_link",
-        "bodyId": 60,
-        "meshUrl": "robot/visual/4aeb45f261a9b9b00108.stl",
+        "sourceBodyName": "right_thumb_distal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/f489da4e47935510ffba.stl",
         "position": [
-          0,
-          0,
-          0
+          0.10327593021013916,
+          0.01612613780602083,
+          0.08614254026379971
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.3975261028347176,
+          0.4737132710450825,
+          0.6275924888135452,
+          0.47296554037860916
         ],
         "scale": [
           1,
@@ -2242,23 +2391,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_thumb_distal_link_material_0"
       },
       {
-        "name": "right_thumb_tip:visual:0",
-        "bodyName": "right_thumb_tip",
-        "bodyId": 61,
-        "meshUrl": "robot/visual/b7c57cc3473e6709ffb9.stl",
+        "name": "right_thumb_touch_link:visual:0",
+        "sourceBodyName": "right_thumb_touch_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/184c29c27b46ea21df21.stl",
         "position": [
-          0,
-          0,
-          0
+          0.11356081835185469,
+          0.01922387838741937,
+          0.0977095309238948
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.4131120722419138,
+          0.4601843993087794,
+          0.6114605807444227,
+          0.4936442976440658
         ],
         "scale": [
           1,
@@ -2271,23 +2421,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_thumb_touch_link_material_0"
       },
       {
         "name": "right_index_proximal_link:visual:0",
-        "bodyName": "right_index_proximal_link",
-        "bodyId": 62,
-        "meshUrl": "robot/visual/94fdff414f1c29940495.stl",
+        "sourceBodyName": "right_index_proximal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/94fdff414f1c29940495.stl",
         "position": [
-          0,
-          0,
-          0
+          0.13987599999984485,
+          -0.0012665490722179751,
+          0.03306747007542602
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.5241707172590081,
+          0.3896110998502347,
+          0.5502552801612915,
+          0.5202570294539864
         ],
         "scale": [
           1,
@@ -2300,23 +2451,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_index_proximal_link_material_0"
       },
       {
         "name": "right_index_distal_link:visual:0",
-        "bodyName": "right_index_distal_link",
-        "bodyId": 63,
-        "meshUrl": "robot/visual/a9f2ff38d27d39713915.stl",
+        "sourceBodyName": "right_index_distal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/44d4b12f55e85baf7768.stl",
         "position": [
-          0,
-          0,
-          0
+          0.17130803957284224,
+          0.003984743589383059,
+          0.035974498397225
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.5241707172590081,
+          0.3896110998502347,
+          0.5502552801612915,
+          0.5202570294539864
         ],
         "scale": [
           1,
@@ -2329,23 +2481,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_index_distal_link_material_0"
       },
       {
-        "name": "right_index_tip:visual:0",
-        "bodyName": "right_index_tip",
-        "bodyId": 64,
-        "meshUrl": "robot/visual/4af36131feedb7f83a69.stl",
+        "name": "right_index_touch_link:visual:0",
+        "sourceBodyName": "right_index_touch_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/a7f7b054539a858173b3.stl",
         "position": [
-          0,
-          0,
-          0
+          0.19206788157893284,
+          0.021931493723416517,
+          0.03560580135529642
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.05496802596979515,
+          0.45476262846785076,
+          0.8824928018607509,
+          -0.10665796985672031
         ],
         "scale": [
           1,
@@ -2358,23 +2511,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_index_touch_link_material_0"
       },
       {
         "name": "right_middle_proximal_link:visual:0",
-        "bodyName": "right_middle_proximal_link",
-        "bodyId": 65,
-        "meshUrl": "robot/visual/56d9f019bad093daf93a.stl",
+        "sourceBodyName": "right_middle_proximal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/56d9f019bad093daf93a.stl",
         "position": [
-          0,
-          0,
-          0
+          0.14399299999992837,
+          -0.003725149072238162,
+          0.013550470075446183
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.4835175149579004,
+          0.43855707664470045,
+          0.5406009001271985,
+          0.5306874504220479
         ],
         "scale": [
           1,
@@ -2387,23 +2541,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_middle_proximal_link_material_0"
       },
       {
         "name": "right_middle_distal_link:visual:0",
-        "bodyName": "right_middle_distal_link",
-        "bodyId": 66,
-        "meshUrl": "robot/visual/6ca6556cbe479398a4ad.stl",
+        "sourceBodyName": "right_middle_distal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/8f11ee9addab1a1eab40.stl",
         "position": [
-          0,
-          0,
-          0
+          0.18055837881044298,
+          0.00181301725608793,
+          0.014691428516128443
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.4835175149579004,
+          0.43855707664470045,
+          0.5406009001271985,
+          0.5306874504220479
         ],
         "scale": [
           1,
@@ -2416,23 +2571,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_middle_distal_link_material_0"
       },
       {
-        "name": "right_middle_tip:visual:0",
-        "bodyName": "right_middle_tip",
-        "bodyId": 67,
-        "meshUrl": "robot/visual/844204b7bcf3de3ad500.stl",
+        "name": "right_middle_touch_link:visual:0",
+        "sourceBodyName": "right_middle_touch_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/1fdd83c56c7eccb38b1a.stl",
         "position": [
-          0,
-          0,
-          0
+          0.20447492547959087,
+          0.021566897031474956,
+          0.014595837234820446
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.34256322030499886,
+          0.3012033183648572,
+          0.6392878542438214,
+          0.6190622266917906
         ],
         "scale": [
           1,
@@ -2445,23 +2601,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_middle_touch_link_material_0"
       },
       {
         "name": "right_ring_proximal_link:visual:0",
-        "bodyName": "right_ring_proximal_link",
-        "bodyId": 68,
-        "meshUrl": "robot/visual/7aa7601fd8360252144d.stl",
+        "sourceBodyName": "right_ring_proximal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/89c64252e891bc915672.stl",
         "position": [
-          0,
-          0,
-          0
+          0.14298200000002625,
+          -0.00381934907223324,
+          -0.006537529924558768
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.4388462391250526,
+          0.4838125017459436,
+          0.5304481426828952,
+          0.5403371257690847
         ],
         "scale": [
           1,
@@ -2474,23 +2631,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_ring_proximal_link_material_0"
       },
       {
         "name": "right_ring_distal_link:visual:0",
-        "bodyName": "right_ring_distal_link",
-        "bodyId": 69,
-        "meshUrl": "robot/visual/0075e39ae91e99ca0420.stl",
+        "sourceBodyName": "right_ring_distal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/40acf67de96d432bbbc0.stl",
         "position": [
-          0,
-          0,
-          0
+          0.17757649203505305,
+          0.0013817578845421847,
+          -0.007619013749056876
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.4388462391250526,
+          0.4838125017459436,
+          0.5304481426828952,
+          0.5403371257690847
         ],
         "scale": [
           1,
@@ -2503,23 +2661,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_ring_distal_link_material_0"
       },
       {
-        "name": "right_ring_tip:visual:0",
-        "bodyName": "right_ring_tip",
-        "bodyId": 70,
-        "meshUrl": "robot/visual/c3be3c69a1b7cba72d4b.stl",
+        "name": "right_ring_touch_link:visual:0",
+        "sourceBodyName": "right_ring_touch_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/f9c0ac36994b014d25b7.stl",
         "position": [
-          0,
-          0,
-          0
+          0.20106610229075794,
+          0.0205003982587611,
+          -0.007539878477790354
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.301540716135715,
+          0.3429120419858512,
+          0.6188977703807762,
+          0.639100991855871
         ],
         "scale": [
           1,
@@ -2532,23 +2691,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_ring_touch_link_material_0"
       },
       {
         "name": "right_pinky_proximal_link:visual:0",
-        "bodyName": "right_pinky_proximal_link",
-        "bodyId": 71,
-        "meshUrl": "robot/visual/1a4ba525880efd4da2bc.stl",
+        "sourceBodyName": "right_pinky_proximal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/1a4ba525880efd4da2bc.stl",
         "position": [
-          0,
-          0,
-          0
+          0.13769400000013227,
+          -0.001505049072207373,
+          -0.025866529924584665
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.3902692216003383,
+          0.5248697437235939,
+          0.5197627047974435,
+          0.5495893171238329
         ],
         "scale": [
           1,
@@ -2561,23 +2721,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_pinky_proximal_link_material_0"
       },
       {
         "name": "right_pinky_distal_link:visual:0",
-        "bodyName": "right_pinky_distal_link",
-        "bodyId": 72,
-        "meshUrl": "robot/visual/0beaa421340096156daa.stl",
+        "sourceBodyName": "right_pinky_distal_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/14c25fb57059978594ea.stl",
         "position": [
-          0,
-          0,
-          0
+          0.1661899910346436,
+          0.0031822513007388835,
+          -0.02851373792072453
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.3902692216003383,
+          0.5248697437235939,
+          0.5197627047974435,
+          0.5495893171238329
         ],
         "scale": [
           1,
@@ -2590,23 +2751,24 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_pinky_distal_link_material_0"
       },
       {
-        "name": "right_pinky_tip:visual:0",
-        "bodyName": "right_pinky_tip",
-        "bodyId": 73,
-        "meshUrl": "robot/visual/f632c67971d2d6dc8a5e.stl",
+        "name": "right_pinky_touch_link:visual:0",
+        "sourceBodyName": "right_pinky_touch_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/96ed796046634fead6ac.stl",
         "position": [
-          0,
-          0,
-          0
+          0.1849237726883381,
+          0.020250565809486105,
+          -0.02804305673118313
         ],
         "quaternion": [
-          1,
-          0,
-          0,
-          0
+          0.25684852905219,
+          0.3806350907517701,
+          0.5970696506695133,
+          0.6577640861749017
         ],
         "scale": [
           1,
@@ -2619,349 +2781,499 @@
           1,
           1
         ],
-        "materialName": ""
+        "materialName": "right_pinky_touch_link_material_0"
+      },
+      {
+        "name": "left_wrist_camera_link:visual:0",
+        "sourceBodyName": "left_wrist_camera_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/72a18279e8a56408586e.stl",
+        "position": [
+          0.0477850953541,
+          -0.0264111315841,
+          -0.0198367108292
+        ],
+        "quaternion": [
+          -0.5844129106518303,
+          0.3389911308374351,
+          0.31022383299604805,
+          0.6688106881010896
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.08,
+          0.09,
+          0.1,
+          1
+        ],
+        "materialName": "left_wrist_camera_link_material"
+      },
+      {
+        "name": "left_wrist_camera_PCB_link:visual:0",
+        "sourceBodyName": "left_wrist_camera_PCB_link",
+        "bodyName": "left_wrist_yaw_link",
+        "bodyId": 30,
+        "meshUrl": "robot/appearance-1020/9ef0c934cf4351d857d1.stl",
+        "position": [
+          0.03616013938049921,
+          -0.020153536505886874,
+          -0.019861477141115438
+        ],
+        "quaternion": [
+          -0.6151686585063749,
+          0.2704919990416447,
+          0.4066805556260613,
+          0.6188800576215072
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.1,
+          0.25,
+          0.12,
+          1
+        ],
+        "materialName": "left_wrist_camera_PCB_link_material"
+      },
+      {
+        "name": "right_wrist_camera_link:visual:0",
+        "sourceBodyName": "right_wrist_camera_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/72a18279e8a56408586e.stl",
+        "position": [
+          0.0474874805168,
+          0.0263737979501,
+          -0.0148423329622
+        ],
+        "quaternion": [
+          -0.33899113083869353,
+          0.5844129106511002,
+          0.6688106881017577,
+          0.31022383299460776
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.08,
+          0.09,
+          0.1,
+          1
+        ],
+        "materialName": "right_wrist_camera_link_material"
+      },
+      {
+        "name": "right_wrist_camera_PCB_link:visual:0",
+        "sourceBodyName": "right_wrist_camera_PCB_link",
+        "bodyName": "right_wrist_yaw_link",
+        "bodyId": 55,
+        "meshUrl": "robot/appearance-1020/9ef0c934cf4351d857d1.stl",
+        "position": [
+          0.03595301484311611,
+          0.019188173285292518,
+          -0.01582045943699134
+        ],
+        "quaternion": [
+          -0.6244546983055784,
+          -0.392443430544438,
+          -0.25662603229998865,
+          0.6246499524794404
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rgba": [
+          0.1,
+          0.25,
+          0.12,
+          1
+        ],
+        "materialName": "right_wrist_camera_PCB_link_material"
       }
     ],
     "files": [
       {
-        "url": "robot/visual/5ba6bbc888e630550140.stl",
-        "sha256": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31",
-        "bytes": 1060884
+        "url": "robot/appearance-1020/9a249feb95d632aa648c.stl",
+        "bytes": 1751184,
+        "sha256": "9a249feb95d632aa648cd07757b2ccce6da36723875e7630fa75d66a4ae8f036"
       },
       {
-        "url": "robot/visual/5cc5c2c7a312329e3fee.stl",
-        "sha256": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420",
-        "bytes": 1805184
+        "url": "robot/appearance-1020/4725168105ee768ee316.stl",
+        "bytes": 181684,
+        "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4"
       },
       {
-        "url": "robot/visual/4725168105ee768ee316.stl",
-        "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4",
-        "bytes": 181684
+        "url": "robot/appearance-1020/91f25922ee8a7c315279.stl",
+        "bytes": 192184,
+        "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf"
       },
       {
-        "url": "robot/visual/91f25922ee8a7c315279.stl",
-        "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf",
-        "bytes": 192184
+        "url": "robot/appearance-1020/a16d88aa6ddac8083aa7.stl",
+        "bytes": 296284,
+        "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b"
       },
       {
-        "url": "robot/visual/a16d88aa6ddac8083aa7.stl",
-        "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b",
-        "bytes": 296284
+        "url": "robot/appearance-1020/8d92b9e3d3a636761150.stl",
+        "bytes": 854884,
+        "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477"
       },
       {
-        "url": "robot/visual/8d92b9e3d3a636761150.stl",
-        "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477",
-        "bytes": 854884
+        "url": "robot/appearance-1020/d49e3abc6f5b12e53206.stl",
+        "bytes": 71184,
+        "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d"
       },
       {
-        "url": "robot/visual/d49e3abc6f5b12e53206.stl",
-        "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d",
-        "bytes": 71184
+        "url": "robot/appearance-1020/c4092af943141d4d9f74.stl",
+        "bytes": 653384,
+        "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f"
       },
       {
-        "url": "robot/visual/c4092af943141d4d9f74.stl",
-        "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f",
-        "bytes": 653384
+        "url": "robot/appearance-1020/e4f3c99d7f4a7d34eadb.stl",
+        "bytes": 181284,
+        "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6"
       },
       {
-        "url": "robot/visual/e4f3c99d7f4a7d34eadb.stl",
-        "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6",
-        "bytes": 181284
+        "url": "robot/appearance-1020/4c254ef66a356f492947.stl",
+        "bytes": 192684,
+        "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6"
       },
       {
-        "url": "robot/visual/4c254ef66a356f492947.stl",
-        "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6",
-        "bytes": 192684
+        "url": "robot/appearance-1020/e479c2936ca2057e9eb2.stl",
+        "bytes": 296284,
+        "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668"
       },
       {
-        "url": "robot/visual/e479c2936ca2057e9eb2.stl",
-        "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668",
-        "bytes": 296284
+        "url": "robot/appearance-1020/63c4008449c9bbe701a6.stl",
+        "bytes": 852284,
+        "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8"
       },
       {
-        "url": "robot/visual/63c4008449c9bbe701a6.stl",
-        "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8",
-        "bytes": 852284
+        "url": "robot/appearance-1020/15be426539ec1be70246.stl",
+        "bytes": 71184,
+        "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9"
       },
       {
-        "url": "robot/visual/15be426539ec1be70246.stl",
-        "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9",
-        "bytes": 71184
+        "url": "robot/appearance-1020/4b66222ea56653e62771.stl",
+        "bytes": 653784,
+        "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5"
       },
       {
-        "url": "robot/visual/4b66222ea56653e62771.stl",
-        "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5",
-        "bytes": 653784
+        "url": "robot/appearance-1020/ec6db442b11f25eed898.stl",
+        "bytes": 619984,
+        "sha256": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c"
       },
       {
-        "url": "robot/visual/ec6db442b11f25eed898.stl",
-        "sha256": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c",
-        "bytes": 619984
+        "url": "robot/appearance-1020/b67c347a05abc3e8ddae.stl",
+        "bytes": 85884,
+        "sha256": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97"
       },
       {
-        "url": "robot/visual/b67c347a05abc3e8ddae.stl",
-        "sha256": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97",
-        "bytes": 85884
+        "url": "robot/appearance-1020/11ddb46f2098efbbd881.stl",
+        "bytes": 2570584,
+        "sha256": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723"
       },
       {
-        "url": "robot/visual/11ddb46f2098efbbd881.stl",
-        "sha256": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723",
-        "bytes": 2570584
+        "url": "robot/appearance-1020/f0d1cfd02fcf0d42f95e.stl",
+        "bytes": 176784,
+        "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52"
       },
       {
-        "url": "robot/visual/8571a0a19bc4916fa55f.stl",
-        "sha256": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b",
-        "bytes": 243384
+        "url": "robot/appearance-1020/fb9df21687773522598d.stl",
+        "bytes": 400284,
+        "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
       },
       {
-        "url": "robot/visual/005fb67fbd3eff94aa8b.stl",
-        "sha256": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411",
-        "bytes": 932784
+        "url": "robot/appearance-1020/1aa97e9748e924336567.stl",
+        "bytes": 249184,
+        "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e"
       },
       {
-        "url": "robot/visual/f0d1cfd02fcf0d42f95e.stl",
-        "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52",
-        "bytes": 176784
+        "url": "robot/appearance-1020/fa752198accd104d5c4c.stl",
+        "bytes": 88784,
+        "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3"
       },
       {
-        "url": "robot/visual/fb9df21687773522598d.stl",
-        "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88",
-        "bytes": 400284
+        "url": "robot/appearance-1020/2e1be7b7d36f54ef1193.stl",
+        "bytes": 790684,
+        "sha256": "2e1be7b7d36f54ef119322c2c931c3ec3226a2728f2d9b0afdaa914add23b7a8"
       },
       {
-        "url": "robot/visual/1aa97e9748e924336567.stl",
-        "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e",
-        "bytes": 249184
+        "url": "robot/appearance-1020/5c4cbe6beddeb6e80c1a.stl",
+        "bytes": 123884,
+        "sha256": "5c4cbe6beddeb6e80c1a0ca26c787e4cb0627743b8a1d1c1e508294ff93fe58a"
       },
       {
-        "url": "robot/visual/fa752198accd104d5c4c.stl",
-        "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3",
-        "bytes": 88784
+        "url": "robot/appearance-1020/4a340f1121c710cac0f7.stl",
+        "bytes": 626284,
+        "sha256": "4a340f1121c710cac0f7ac1490352455848f04b454193f4071c25ab4b46c5f27"
       },
       {
-        "url": "robot/visual/edc387c9a0ba8c2237e9.stl",
-        "sha256": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c",
-        "bytes": 356184
+        "url": "robot/appearance-1020/1fe2d033a63652bf9af9.stl",
+        "bytes": 844884,
+        "sha256": "1fe2d033a63652bf9af999fdd24c07b8aa02c40feb64dbf4c9a88b2d9baf5f45"
       },
       {
-        "url": "robot/visual/b251d8e05047f695d0f5.stl",
-        "sha256": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9",
-        "bytes": 85984
+        "url": "robot/appearance-1020/24cdb387e0128dfe6027.stl",
+        "bytes": 176784,
+        "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02"
       },
       {
-        "url": "robot/visual/83f8fb3a726bf9613d65.stl",
-        "sha256": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b",
-        "bytes": 318684
+        "url": "robot/appearance-1020/962b97c48f9ce9e8399f.stl",
+        "bytes": 401884,
+        "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81"
       },
       {
-        "url": "robot/visual/1a0ca805910d235ea1ba.stl",
-        "sha256": "1a0ca805910d235ea1bab123fce8d05b951196421801a3aed9a9beddd9f88852",
-        "bytes": 123384
+        "url": "robot/appearance-1020/a0b76489271da0c72461.stl",
+        "bytes": 249984,
+        "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5"
       },
       {
-        "url": "robot/visual/d8851e50188ac14edba1.stl",
-        "sha256": "d8851e50188ac14edba1552b37d4ccb8f61c0d7ad7338a8db9623512476e968b",
-        "bytes": 2518884
+        "url": "robot/appearance-1020/1be925d7aa268bb8fddf.stl",
+        "bytes": 88784,
+        "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab"
       },
       {
-        "url": "robot/visual/415a75193e7773572b0d.stl",
-        "sha256": "415a75193e7773572b0df8a80fa4e1d187a67901a5ff381a89ee5b7df64735ea",
-        "bytes": 290384
+        "url": "robot/appearance-1020/5959c2ee4df1f14ae840.stl",
+        "bytes": 799184,
+        "sha256": "5959c2ee4df1f14ae8402411a26cba31544b49ae1402c96b204a72f3e086f7a4"
       },
       {
-        "url": "robot/visual/191650b13c24d76d7cf5.stl",
-        "sha256": "191650b13c24d76d7cf58e4ba51e3a79ac07906db8639c557da5a98b87b5f316",
-        "bytes": 657684
+        "url": "robot/appearance-1020/b0b2a3153c9cb576ef32.stl",
+        "bytes": 114084,
+        "sha256": "b0b2a3153c9cb576ef327145e9761db713a5083452c70b22899841365df75c56"
       },
       {
-        "url": "robot/visual/db9d74a4c4025b3d14fb.stl",
-        "sha256": "db9d74a4c4025b3d14fb2f67d3326c4be20002b1c51ef21971cc848d70be630e",
-        "bytes": 221284
+        "url": "robot/appearance-1020/3322fefc17fbb4361db0.stl",
+        "bytes": 618184,
+        "sha256": "3322fefc17fbb4361db061db8b3ffc6200eaea7e6bec07957a2ce53a890c3c59"
       },
       {
-        "url": "robot/visual/5177296e2426d118cc15.stl",
-        "sha256": "5177296e2426d118cc15ca74db26ebbdedf129f7a2b7c1194b2752f19e1fa3cd",
-        "bytes": 117684
+        "url": "robot/appearance-1020/1b7f9d1922c59fdf1b63.stl",
+        "bytes": 845084,
+        "sha256": "1b7f9d1922c59fdf1b63571818a09af779931ffb370860e88ac895896fe1717f"
       },
       {
-        "url": "robot/visual/1fed32c1a8451282b314.stl",
-        "sha256": "1fed32c1a8451282b314579eed3903a288a62524dc7d8b08464fb559261bb580",
-        "bytes": 339884
+        "url": "robot/appearance-1020/9fb6699711444f1e1906.stl",
+        "bytes": 22369484,
+        "sha256": "9fb6699711444f1e1906754c4dae744cba122e3a49d244d68fb528cb6598bacb"
       },
       {
-        "url": "robot/visual/188a5ef9e447ee78932d.stl",
-        "sha256": "188a5ef9e447ee78932d072d3ced223a66990e8216b413f1a85f67bb3bd2ebd6",
-        "bytes": 441984
+        "url": "robot/appearance-1020/5a23e6d7eddd9123d4ee.stl",
+        "bytes": 9552784,
+        "sha256": "5a23e6d7eddd9123d4eec177767815105110277ba192e6bed8eb268ca3a448af"
       },
       {
-        "url": "robot/visual/9f5a11d72375073e8373.stl",
-        "sha256": "9f5a11d72375073e8373a02ce604ca99abcb583074ba2f520510b48abc4c5b86",
-        "bytes": 117684
+        "url": "robot/appearance-1020/29cff1ec1d83714a0909.stl",
+        "bytes": 1700384,
+        "sha256": "29cff1ec1d83714a0909f2a7a783b3e36b5e42949a246e66b7acbcfb21e5801d"
       },
       {
-        "url": "robot/visual/50122ebf6e75698ba2c4.stl",
-        "sha256": "50122ebf6e75698ba2c469efd58e07ad3f82b1a002728cd15802f1c435d54c0c",
-        "bytes": 334284
+        "url": "robot/appearance-1020/340401f796bbac762cf8.stl",
+        "bytes": 2368784,
+        "sha256": "340401f796bbac762cf85d53e6db4be02cce2f06b66fcf8d6ecb5ba883f06afd"
       },
       {
-        "url": "robot/visual/cc4dec97e13c6be231b0.stl",
-        "sha256": "cc4dec97e13c6be231b07f5d092e0d292a9a77c6a707062caf17d3602c22ad73",
-        "bytes": 435984
+        "url": "robot/appearance-1020/d9d2558da8369d2f0993.stl",
+        "bytes": 252684,
+        "sha256": "d9d2558da8369d2f0993e46eed3d1e2a11b4927ab2b8c1731d460b72fea04e9e"
       },
       {
-        "url": "robot/visual/ef4ac885d12e60391872.stl",
-        "sha256": "ef4ac885d12e603918722c22000a59827f168f276d9c41651ef0d94175113486",
-        "bytes": 117684
+        "url": "robot/appearance-1020/415a75193e7773572b0d.stl",
+        "bytes": 290384,
+        "sha256": "415a75193e7773572b0df8a80fa4e1d187a67901a5ff381a89ee5b7df64735ea"
       },
       {
-        "url": "robot/visual/77220c07d5bbc119cb82.stl",
-        "sha256": "77220c07d5bbc119cb828af89f35cb4cef755bbc98a1cae2dda846268ff59501",
-        "bytes": 281184
+        "url": "robot/appearance-1020/ccffe779ed683ec5c2f2.stl",
+        "bytes": 620384,
+        "sha256": "ccffe779ed683ec5c2f24e3776c11a127e341743142ddd8f275bfded76938da8"
       },
       {
-        "url": "robot/visual/100a748e3038ed3ce596.stl",
-        "sha256": "100a748e3038ed3ce5969f0696133dd3bf9bfa6f1546287272cf44d76a3cacce",
-        "bytes": 564884
+        "url": "robot/appearance-1020/bcd5279fb8a4d8ba4b06.stl",
+        "bytes": 771684,
+        "sha256": "bcd5279fb8a4d8ba4b06b3d302caa567fde9add81b057943cc6a445abb9e27b5"
       },
       {
-        "url": "robot/visual/870a5b7890a41c8fb8e9.stl",
-        "sha256": "870a5b7890a41c8fb8e91cd0c4f74f01c64778bf33f29c135b0b0431a489cde1",
-        "bytes": 117684
+        "url": "robot/appearance-1020/99300669452dc8e34d5f.stl",
+        "bytes": 96284,
+        "sha256": "99300669452dc8e34d5f62caf31c9c769077af45e0127511cd0c56967fe691a6"
       },
       {
-        "url": "robot/visual/9f1408568638fbbec4cf.stl",
-        "sha256": "9f1408568638fbbec4cf32507d4b233fbd8cdb9c862e07cc7da6cd826497caa6",
-        "bytes": 346784
+        "url": "robot/appearance-1020/e31a6aa8faf2be8a6bfc.stl",
+        "bytes": 125084,
+        "sha256": "e31a6aa8faf2be8a6bfc3f222ebe7cf59fb5266487d1d98b86a55a7a2524fc20"
       },
       {
-        "url": "robot/visual/a2f6a2150559d01e6f07.stl",
-        "sha256": "a2f6a2150559d01e6f07a55cda141d3363de7e6e4259457740dee8afdb17b20f",
-        "bytes": 596184
+        "url": "robot/appearance-1020/1fed32c1a8451282b314.stl",
+        "bytes": 339884,
+        "sha256": "1fed32c1a8451282b314579eed3903a288a62524dc7d8b08464fb559261bb580"
       },
       {
-        "url": "robot/visual/56eae1cc71cf6acab0a2.stl",
-        "sha256": "56eae1cc71cf6acab0a20c1a8e2e470c9ec96f520386c1ea22f10f51e2dbf758",
-        "bytes": 117684
+        "url": "robot/appearance-1020/634d5c569628c3c2dbc9.stl",
+        "bytes": 408284,
+        "sha256": "634d5c569628c3c2dbc92932065748ed830fb17ccf933959a5834b2759ab8acd"
       },
       {
-        "url": "robot/visual/24cdb387e0128dfe6027.stl",
-        "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02",
-        "bytes": 176784
+        "url": "robot/appearance-1020/821249c18a0cf66c87aa.stl",
+        "bytes": 99984,
+        "sha256": "821249c18a0cf66c87aa4029de1f0ce532f03e7a173c951a5121f2df3b301b52"
       },
       {
-        "url": "robot/visual/962b97c48f9ce9e8399f.stl",
-        "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81",
-        "bytes": 401884
+        "url": "robot/appearance-1020/50122ebf6e75698ba2c4.stl",
+        "bytes": 334284,
+        "sha256": "50122ebf6e75698ba2c469efd58e07ad3f82b1a002728cd15802f1c435d54c0c"
       },
       {
-        "url": "robot/visual/a0b76489271da0c72461.stl",
-        "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5",
-        "bytes": 249984
+        "url": "robot/appearance-1020/e0ff6f648bbb7712bbc7.stl",
+        "bytes": 406584,
+        "sha256": "e0ff6f648bbb7712bbc7f06bacdd3a574cac2e1bc2398383b57da2d76c88932a"
       },
       {
-        "url": "robot/visual/1be925d7aa268bb8fddf.stl",
-        "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab",
-        "bytes": 88784
+        "url": "robot/appearance-1020/c91b30341a816ac079ec.stl",
+        "bytes": 69884,
+        "sha256": "c91b30341a816ac079ec1268c8427ca3a010356002a30b6847b2853a0edf1e6b"
       },
       {
-        "url": "robot/visual/a7ee9212ff5b94d6cb7f.stl",
-        "sha256": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f",
-        "bytes": 356084
+        "url": "robot/appearance-1020/77220c07d5bbc119cb82.stl",
+        "bytes": 281184,
+        "sha256": "77220c07d5bbc119cb828af89f35cb4cef755bbc98a1cae2dda846268ff59501"
       },
       {
-        "url": "robot/visual/d22f8f3b3127f15a63e5.stl",
-        "sha256": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477",
-        "bytes": 79584
+        "url": "robot/appearance-1020/c59b62ef04c9cb436f6a.stl",
+        "bytes": 529784,
+        "sha256": "c59b62ef04c9cb436f6a6bac5ae9be985eca0d538bc58380c40c00d16079d580"
       },
       {
-        "url": "robot/visual/bc9dece2d12509707e00.stl",
-        "sha256": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6",
-        "bytes": 341484
+        "url": "robot/appearance-1020/c2fb7d2c4fb0df91209a.stl",
+        "bytes": 71584,
+        "sha256": "c2fb7d2c4fb0df91209ab7158d5f17ab59a7aa56522a9e91a3c3884a35ac6ae0"
       },
       {
-        "url": "robot/visual/c506bceeb28732ea1220.stl",
-        "sha256": "c506bceeb28732ea1220d4a62000064a0621994c4efe711c954cc6605abd4a34",
-        "bytes": 2513484
+        "url": "robot/appearance-1020/9f1408568638fbbec4cf.stl",
+        "bytes": 346784,
+        "sha256": "9f1408568638fbbec4cf32507d4b233fbd8cdb9c862e07cc7da6cd826497caa6"
       },
       {
-        "url": "robot/visual/bf007bb8ddfd1eda5eba.stl",
-        "sha256": "bf007bb8ddfd1eda5eba12dc802d9d6ac5b4b183c93c4e1cc9b025a816cfb68b",
-        "bytes": 289584
+        "url": "robot/appearance-1020/d52822897dcc0de60fff.stl",
+        "bytes": 554484,
+        "sha256": "d52822897dcc0de60fff7f2652a7d12a342b47905eff7555eaabcc1bcfcaeac4"
       },
       {
-        "url": "robot/visual/b1d8154a4f00bb6237b5.stl",
-        "sha256": "b1d8154a4f00bb6237b5553a64dda8ef0d9026a87d3d862a643f18284d17f472",
-        "bytes": 657384
+        "url": "robot/appearance-1020/850ad4ad9daf4188aa17.stl",
+        "bytes": 68584,
+        "sha256": "850ad4ad9daf4188aa17f96588fe5541fb0c70be10d714930b3cb816748258a0"
       },
       {
-        "url": "robot/visual/4aeb45f261a9b9b00108.stl",
-        "sha256": "4aeb45f261a9b9b0010856d45188c6fa5c1ca23485568f2d30728bc23bcf4e44",
-        "bytes": 218834
+        "url": "robot/appearance-1020/2754b59a9132a04a28cf.stl",
+        "bytes": 2364184,
+        "sha256": "2754b59a9132a04a28cf5725d5478599218c9f7dd4b2e13329147e824211ec44"
       },
       {
-        "url": "robot/visual/b7c57cc3473e6709ffb9.stl",
-        "sha256": "b7c57cc3473e6709ffb95133274c7986adf23a812ff7afbf5d74dc8ccdc4dd45",
-        "bytes": 117684
+        "url": "robot/appearance-1020/7357830cda11d9749adc.stl",
+        "bytes": 130584,
+        "sha256": "7357830cda11d9749adc1e796aa0e493f8001ac2c21815d40fdc1406a3b3457c"
       },
       {
-        "url": "robot/visual/94fdff414f1c29940495.stl",
-        "sha256": "94fdff414f1c29940495d1f0264a50621340cfc30f9b5365b3490d39ae367f2f",
-        "bytes": 339884
+        "url": "robot/appearance-1020/15464fa122dddc49a564.stl",
+        "bytes": 289584,
+        "sha256": "15464fa122dddc49a56462898777e9e407f22b81abb03d10aba0d95f8fefc83a"
       },
       {
-        "url": "robot/visual/a9f2ff38d27d39713915.stl",
-        "sha256": "a9f2ff38d27d39713915d41996a335a4a7f272b51f2b663fd253df4890d2ea7d",
-        "bytes": 444884
+        "url": "robot/appearance-1020/0c415499f0b28609062d.stl",
+        "bytes": 735284,
+        "sha256": "0c415499f0b28609062d1364cd2500cd801a5f4e6a8a2083ae82b8a870404495"
       },
       {
-        "url": "robot/visual/4af36131feedb7f83a69.stl",
-        "sha256": "4af36131feedb7f83a695ff8e7d09a7e8893df96f971b2d363c0d359e3a82bbf",
-        "bytes": 117684
+        "url": "robot/appearance-1020/f489da4e47935510ffba.stl",
+        "bytes": 95834,
+        "sha256": "f489da4e47935510ffba42016052318f123ef07360fdbbfaadcb0f7d8ddbe28f"
       },
       {
-        "url": "robot/visual/56d9f019bad093daf93a.stl",
-        "sha256": "56d9f019bad093daf93a736596ab4e7d9b17fb3c79e2be4181d909958cf76a37",
-        "bytes": 333384
+        "url": "robot/appearance-1020/184c29c27b46ea21df21.stl",
+        "bytes": 123084,
+        "sha256": "184c29c27b46ea21df210a13af795c49569fcc1b36cd8b8ebe5aa66b4a0f5612"
       },
       {
-        "url": "robot/visual/6ca6556cbe479398a4ad.stl",
-        "sha256": "6ca6556cbe479398a4adece02ea2220f7088a237937f9129e6fa8f37a3f8d779",
-        "bytes": 437084
+        "url": "robot/appearance-1020/94fdff414f1c29940495.stl",
+        "bytes": 339884,
+        "sha256": "94fdff414f1c29940495d1f0264a50621340cfc30f9b5365b3490d39ae367f2f"
       },
       {
-        "url": "robot/visual/844204b7bcf3de3ad500.stl",
-        "sha256": "844204b7bcf3de3ad500232e2e30ac15a8ec41728be281d0670c7ad1a2b09e34",
-        "bytes": 117684
+        "url": "robot/appearance-1020/44d4b12f55e85baf7768.stl",
+        "bytes": 411284,
+        "sha256": "44d4b12f55e85baf77685443aa1f38ae521130a58f0b742920f2a99abc1a1efb"
       },
       {
-        "url": "robot/visual/7aa7601fd8360252144d.stl",
-        "sha256": "7aa7601fd8360252144de4475e30575277f6ca20dc019e90c7df8ff9f2fc8074",
-        "bytes": 281484
+        "url": "robot/appearance-1020/a7f7b054539a858173b3.stl",
+        "bytes": 99984,
+        "sha256": "a7f7b054539a858173b3e002be2df5ebc60a3e3d8bdf38e32f490a1475809251"
       },
       {
-        "url": "robot/visual/0075e39ae91e99ca0420.stl",
-        "sha256": "0075e39ae91e99ca042036d183fc1c0216e703555be258f39ef1bdf1f055d969",
-        "bytes": 563784
+        "url": "robot/appearance-1020/56d9f019bad093daf93a.stl",
+        "bytes": 333384,
+        "sha256": "56d9f019bad093daf93a736596ab4e7d9b17fb3c79e2be4181d909958cf76a37"
       },
       {
-        "url": "robot/visual/c3be3c69a1b7cba72d4b.stl",
-        "sha256": "c3be3c69a1b7cba72d4b09c8ca4e04f3ad15ef2e47f8212bb547be7487f88022",
-        "bytes": 117684
+        "url": "robot/appearance-1020/8f11ee9addab1a1eab40.stl",
+        "bytes": 408584,
+        "sha256": "8f11ee9addab1a1eab40fd765c21389e6f98397166ae5899dc83ddf66f871b3b"
       },
       {
-        "url": "robot/visual/1a4ba525880efd4da2bc.stl",
-        "sha256": "1a4ba525880efd4da2bcdfd5d2d69a684a02f8c7c01f8e185adf23f47469d0f4",
-        "bytes": 343284
+        "url": "robot/appearance-1020/1fdd83c56c7eccb38b1a.stl",
+        "bytes": 69884,
+        "sha256": "1fdd83c56c7eccb38b1af2d75742f1681d6a4dff93e9f15a37173e22117fecf0"
       },
       {
-        "url": "robot/visual/0beaa421340096156daa.stl",
-        "sha256": "0beaa421340096156daaa286364058f200b54bd81b079dd335169dd324ab3344",
-        "bytes": 595984
+        "url": "robot/appearance-1020/89c64252e891bc915672.stl",
+        "bytes": 281484,
+        "sha256": "89c64252e891bc91567241b74de18d986e20e4e57d74cd10289d7171f6c57dc6"
       },
       {
-        "url": "robot/visual/f632c67971d2d6dc8a5e.stl",
-        "sha256": "f632c67971d2d6dc8a5edcfcac4db8b3078e346540270bd89a9e9c783d304415",
-        "bytes": 117684
+        "url": "robot/appearance-1020/40acf67de96d432bbbc0.stl",
+        "bytes": 529684,
+        "sha256": "40acf67de96d432bbbc0a3eda7bbb292cbd2ea0c5f0c78a9b299cf360f3a9f07"
+      },
+      {
+        "url": "robot/appearance-1020/f9c0ac36994b014d25b7.stl",
+        "bytes": 71584,
+        "sha256": "f9c0ac36994b014d25b7d5c292cbd39192e5146c8961ded1e8a9702e2d4e62c2"
+      },
+      {
+        "url": "robot/appearance-1020/1a4ba525880efd4da2bc.stl",
+        "bytes": 343284,
+        "sha256": "1a4ba525880efd4da2bcdfd5d2d69a684a02f8c7c01f8e185adf23f47469d0f4"
+      },
+      {
+        "url": "robot/appearance-1020/14c25fb57059978594ea.stl",
+        "bytes": 554084,
+        "sha256": "14c25fb57059978594ea518860522ae401e3a3602d6a39297c52807620e30bac"
+      },
+      {
+        "url": "robot/appearance-1020/96ed796046634fead6ac.stl",
+        "bytes": 68584,
+        "sha256": "96ed796046634fead6ac789be979e3b013c3a6d32ba866a31ea92f7c3ebf19ee"
+      },
+      {
+        "url": "robot/appearance-1020/72a18279e8a56408586e.stl",
+        "bytes": 25084,
+        "sha256": "72a18279e8a56408586e379a2762fa27b325c27423dd3731e1ea4e31360c27cc"
+      },
+      {
+        "url": "robot/appearance-1020/9ef0c934cf4351d857d1.stl",
+        "bytes": 27884,
+        "sha256": "9ef0c934cf4351d857d1415cc3fe534a773e6da97523ccc4a6bd059fb402b506"
       }
     ]
   },
@@ -3765,6 +4077,29 @@
       "url": "motions/letter-Z.json",
       "bytes": 410041,
       "sha256": "7e52a604e92c1130627ce88a0cb80489fa726fae961d20a9b541f31f668ed53d"
+    },
+    {
+      "id": "shape-heart",
+      "label": "♡ 爱心",
+      "taskName": "Shape-heart",
+      "category": "Handwriting",
+      "kind": "shape",
+      "letter": "♡",
+      "sourceFilename": "heart/motion.npz",
+      "recordId": "heart",
+      "datasetId": "handwriting_shapes_v1",
+      "sourceFps": 50,
+      "sourceFrames": 973,
+      "sourceSha256": "e56602e733ea6e21377c6993548990500070715145f3e9ad3f00fbbef2ff4e76",
+      "g1SourceSha256": "e56602e733ea6e21377c6993548990500070715145f3e9ad3f00fbbef2ff4e76",
+      "referenceSource": "g1_fk",
+      "referenceFrame": "global",
+      "fps": 50,
+      "numFrames": 973,
+      "duration": 19.44,
+      "url": "motions/shape-heart.json",
+      "bytes": 682405,
+      "sha256": "c198da122ded126d3b79be8f01ff3bad80bdf6fd6d7b5a61467ff34584525cfa"
     }
   ],
   "handwriting": {
