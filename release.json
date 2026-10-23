@@ -1,9 +1,15 @@
 {
   "hosting": "GitHub Pages",
   "runtimeSource": "S0/online_demo on feature/s0_online_demo",
-  "runtimeSourceCommit": "74ef5804a2481933fe3594f055ca40150f577311",
+  "runtimeSourceCommit": "3a612fdf843bfb8c149ba9949473c339f457963d",
   "modelSha256": "e4f393a62ceb64d14fe310dd8f1ac7f9790f945ef22708074ce9e383d0928f3c",
   "modelReconstructionExact": true,
+  "visualCompression": {
+    "files": 74,
+    "originalBytes": 65081966,
+    "compressedBytes": 26100603,
+    "exact": true
+  },
   "lateral": {
     "id": "lateral-r2-052",
     "url": "motions/lateral-r2-052.json",
@@ -22,14 +28,14 @@
       "sha256": "c6ae1266f43046111d0759394026735c2267c8cd965f113f1c379469e411600c"
     },
     {
-      "path": "assets/index-N6H32zXm.js",
-      "bytes": 581451,
-      "sha256": "a9b9024df030bd41f9887fea4e1d9326db4037d53a1e98b6d0713e0baf36534b"
+      "path": "assets/index-BnYp-7F8.js",
+      "bytes": 583124,
+      "sha256": "b78792e68eff252837344358500da64b017a5ca98e00f9e155e20be71e3587f9"
     },
     {
       "path": "assets/manifest.json",
-      "bytes": 109692,
-      "sha256": "f9271cedae1854b73fc5ba45aed614cd2b714b521ed90ed3031a6baa3545225a"
+      "bytes": 128394,
+      "sha256": "c500b3bc12f89f3533a390bcd1369d6f9d00f9ceba51c90a2760025e437ea4da"
     },
     {
       "path": "assets/models/test052-20k-e4f393a62ceb.part-00.bin",
@@ -242,374 +248,374 @@
       "sha256": "040d52ce5066707a10d45cb9500c35e70a9c2fb33c4fb63428da9ae45b956b97"
     },
     {
-      "path": "assets/robot/appearance-1020/0c415499f0b28609062d.stl",
-      "bytes": 735284,
-      "sha256": "0c415499f0b28609062d1364cd2500cd801a5f4e6a8a2083ae82b8a870404495"
+      "path": "assets/robot/appearance-1020/0c415499f0b28609062d.stl.gz",
+      "bytes": 332277,
+      "sha256": "085fe32300d148337f24a227c8851f8111574d41349b27255c5f02feff4d28fc"
     },
     {
-      "path": "assets/robot/appearance-1020/11ddb46f2098efbbd881.stl",
-      "bytes": 2570584,
-      "sha256": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723"
+      "path": "assets/robot/appearance-1020/11ddb46f2098efbbd881.stl.gz",
+      "bytes": 1072072,
+      "sha256": "eccaa9724c29ba562ff4baf1103a9fb441be6f4816413125b0339b34a25073b9"
     },
     {
-      "path": "assets/robot/appearance-1020/14c25fb57059978594ea.stl",
-      "bytes": 554084,
-      "sha256": "14c25fb57059978594ea518860522ae401e3a3602d6a39297c52807620e30bac"
+      "path": "assets/robot/appearance-1020/14c25fb57059978594ea.stl.gz",
+      "bytes": 253487,
+      "sha256": "e1ea37dd4773f4d739d1e664b47b80a58a65d21d2ebe627a33a3a470a7483c78"
     },
     {
-      "path": "assets/robot/appearance-1020/15464fa122dddc49a564.stl",
-      "bytes": 289584,
-      "sha256": "15464fa122dddc49a56462898777e9e407f22b81abb03d10aba0d95f8fefc83a"
+      "path": "assets/robot/appearance-1020/15464fa122dddc49a564.stl.gz",
+      "bytes": 124724,
+      "sha256": "ab3a642d1fc6cbefc267c4dbb112d93df529663e192ba33f3974c97047af50a3"
     },
     {
-      "path": "assets/robot/appearance-1020/15be426539ec1be70246.stl",
-      "bytes": 71184,
-      "sha256": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9"
+      "path": "assets/robot/appearance-1020/15be426539ec1be70246.stl.gz",
+      "bytes": 30210,
+      "sha256": "5b3afc5d64dde40600917a25e8fa26e794ad1e76c74054ca4f0646448bad1fdd"
     },
     {
-      "path": "assets/robot/appearance-1020/184c29c27b46ea21df21.stl",
-      "bytes": 123084,
-      "sha256": "184c29c27b46ea21df210a13af795c49569fcc1b36cd8b8ebe5aa66b4a0f5612"
+      "path": "assets/robot/appearance-1020/184c29c27b46ea21df21.stl.gz",
+      "bytes": 56013,
+      "sha256": "83ff8c080b7bb360f982fe5db56df18d7ac0601a4e7fab226d3264b8a4ff38f0"
     },
     {
-      "path": "assets/robot/appearance-1020/1a4ba525880efd4da2bc.stl",
-      "bytes": 343284,
-      "sha256": "1a4ba525880efd4da2bcdfd5d2d69a684a02f8c7c01f8e185adf23f47469d0f4"
+      "path": "assets/robot/appearance-1020/1a4ba525880efd4da2bc.stl.gz",
+      "bytes": 157461,
+      "sha256": "f7c468a5a0fc09a95fd047f1bf7fa1ade13903a4352ab75945828d53de9d1363"
     },
     {
-      "path": "assets/robot/appearance-1020/1aa97e9748e924336567.stl",
-      "bytes": 249184,
-      "sha256": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e"
+      "path": "assets/robot/appearance-1020/1aa97e9748e924336567.stl.gz",
+      "bytes": 109223,
+      "sha256": "caaa066a3dade3817ed3417379c5c6e452c329d6a678a5c6bd72dcda1cbbd302"
     },
     {
-      "path": "assets/robot/appearance-1020/1b7f9d1922c59fdf1b63.stl",
-      "bytes": 845084,
-      "sha256": "1b7f9d1922c59fdf1b63571818a09af779931ffb370860e88ac895896fe1717f"
+      "path": "assets/robot/appearance-1020/1b7f9d1922c59fdf1b63.stl.gz",
+      "bytes": 218745,
+      "sha256": "6ce78647d3b9a5caeac339524661ac2c44e0ed73c097b3db6490b2b9a2a272d8"
     },
     {
-      "path": "assets/robot/appearance-1020/1be925d7aa268bb8fddf.stl",
-      "bytes": 88784,
-      "sha256": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab"
+      "path": "assets/robot/appearance-1020/1be925d7aa268bb8fddf.stl.gz",
+      "bytes": 39954,
+      "sha256": "c72e4abda8daed5bdb94f26548ae00ebd688e19dcc1a85a6be868f37d5ca2679"
     },
     {
-      "path": "assets/robot/appearance-1020/1fdd83c56c7eccb38b1a.stl",
-      "bytes": 69884,
-      "sha256": "1fdd83c56c7eccb38b1af2d75742f1681d6a4dff93e9f15a37173e22117fecf0"
+      "path": "assets/robot/appearance-1020/1fdd83c56c7eccb38b1a.stl.gz",
+      "bytes": 31193,
+      "sha256": "9575151c24ac3f010e053aae32b996164763e866c9f45e3bebc758ae5c5b0bce"
     },
     {
-      "path": "assets/robot/appearance-1020/1fe2d033a63652bf9af9.stl",
-      "bytes": 844884,
-      "sha256": "1fe2d033a63652bf9af999fdd24c07b8aa02c40feb64dbf4c9a88b2d9baf5f45"
+      "path": "assets/robot/appearance-1020/1fe2d033a63652bf9af9.stl.gz",
+      "bytes": 311765,
+      "sha256": "42687ffd69b0cb0d61097e6b64ed1cbe7886a6a5b968eb64e855ca037a58c36b"
     },
     {
-      "path": "assets/robot/appearance-1020/1fed32c1a8451282b314.stl",
-      "bytes": 339884,
-      "sha256": "1fed32c1a8451282b314579eed3903a288a62524dc7d8b08464fb559261bb580"
+      "path": "assets/robot/appearance-1020/1fed32c1a8451282b314.stl.gz",
+      "bytes": 156533,
+      "sha256": "26ef4edbb40c3eff3357c219d65cb44621fc28d1ebf8959a369de1fadbd3f62d"
     },
     {
-      "path": "assets/robot/appearance-1020/24cdb387e0128dfe6027.stl",
-      "bytes": 176784,
-      "sha256": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02"
+      "path": "assets/robot/appearance-1020/24cdb387e0128dfe6027.stl.gz",
+      "bytes": 78268,
+      "sha256": "d9c24871535ef9658b80c5a6293dd7b13f4622476ece914d538c41e6f707b0f3"
     },
     {
-      "path": "assets/robot/appearance-1020/2754b59a9132a04a28cf.stl",
-      "bytes": 2364184,
-      "sha256": "2754b59a9132a04a28cf5725d5478599218c9f7dd4b2e13329147e824211ec44"
+      "path": "assets/robot/appearance-1020/2754b59a9132a04a28cf.stl.gz",
+      "bytes": 1076207,
+      "sha256": "3f4836e57c4dc2f989e12e58a57583cbe521d1821bb89fce2baa734deb9ef537"
     },
     {
-      "path": "assets/robot/appearance-1020/29cff1ec1d83714a0909.stl",
-      "bytes": 1700384,
-      "sha256": "29cff1ec1d83714a0909f2a7a783b3e36b5e42949a246e66b7acbcfb21e5801d"
+      "path": "assets/robot/appearance-1020/29cff1ec1d83714a0909.stl.gz",
+      "bytes": 617134,
+      "sha256": "9dea3b1399e698fc9030b4634914efb123472bbfc30ea4cfc53b73f4d6191112"
     },
     {
-      "path": "assets/robot/appearance-1020/2e1be7b7d36f54ef1193.stl",
-      "bytes": 790684,
-      "sha256": "2e1be7b7d36f54ef119322c2c931c3ec3226a2728f2d9b0afdaa914add23b7a8"
+      "path": "assets/robot/appearance-1020/2e1be7b7d36f54ef1193.stl.gz",
+      "bytes": 369188,
+      "sha256": "6c86fe6aa0f01cf997ec1a4935453dc23856866ff787a4e572cf097ccfc553ba"
     },
     {
-      "path": "assets/robot/appearance-1020/3322fefc17fbb4361db0.stl",
-      "bytes": 618184,
-      "sha256": "3322fefc17fbb4361db061db8b3ffc6200eaea7e6bec07957a2ce53a890c3c59"
+      "path": "assets/robot/appearance-1020/3322fefc17fbb4361db0.stl.gz",
+      "bytes": 201702,
+      "sha256": "17b4c390bd13d91e667709c75acc4825c291e944c46cc171df39908c33b9dcec"
     },
     {
-      "path": "assets/robot/appearance-1020/340401f796bbac762cf8.stl",
-      "bytes": 2368784,
-      "sha256": "340401f796bbac762cf85d53e6db4be02cce2f06b66fcf8d6ecb5ba883f06afd"
+      "path": "assets/robot/appearance-1020/340401f796bbac762cf8.stl.gz",
+      "bytes": 1076790,
+      "sha256": "74a62213d6b1497b92c1f1293dccb5f5e7049ff694ac820b877bad682f1bc96d"
     },
     {
-      "path": "assets/robot/appearance-1020/40acf67de96d432bbbc0.stl",
-      "bytes": 529684,
-      "sha256": "40acf67de96d432bbbc0a3eda7bbb292cbd2ea0c5f0c78a9b299cf360f3a9f07"
+      "path": "assets/robot/appearance-1020/40acf67de96d432bbbc0.stl.gz",
+      "bytes": 240886,
+      "sha256": "6988c675b8aec8f4eaaa89ce65e78cfba6f472924eecdf0c0e1fc32d551b570c"
     },
     {
-      "path": "assets/robot/appearance-1020/415a75193e7773572b0d.stl",
-      "bytes": 290384,
-      "sha256": "415a75193e7773572b0df8a80fa4e1d187a67901a5ff381a89ee5b7df64735ea"
+      "path": "assets/robot/appearance-1020/415a75193e7773572b0d.stl.gz",
+      "bytes": 124826,
+      "sha256": "7626db727c63d2e71b718199d800ee041510665a6a34189cf9699e87c9f0f4a0"
     },
     {
-      "path": "assets/robot/appearance-1020/44d4b12f55e85baf7768.stl",
-      "bytes": 411284,
-      "sha256": "44d4b12f55e85baf77685443aa1f38ae521130a58f0b742920f2a99abc1a1efb"
+      "path": "assets/robot/appearance-1020/44d4b12f55e85baf7768.stl.gz",
+      "bytes": 187910,
+      "sha256": "e8625064481f96edd1f00f0d68a60cd3e6233e796069b2f40869da7ed18b0a07"
     },
     {
-      "path": "assets/robot/appearance-1020/4725168105ee768ee316.stl",
-      "bytes": 181684,
-      "sha256": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4"
+      "path": "assets/robot/appearance-1020/4725168105ee768ee316.stl.gz",
+      "bytes": 78838,
+      "sha256": "01c72eb10443bc65023248a003a3f088aec144c06aeba77e209e7d36d91d0d61"
     },
     {
-      "path": "assets/robot/appearance-1020/4a340f1121c710cac0f7.stl",
-      "bytes": 626284,
-      "sha256": "4a340f1121c710cac0f7ac1490352455848f04b454193f4071c25ab4b46c5f27"
+      "path": "assets/robot/appearance-1020/4a340f1121c710cac0f7.stl.gz",
+      "bytes": 207437,
+      "sha256": "fcc262e4b4afc9f2e2a8418f62968845d901162e565a160424e491a3091f3b3e"
     },
     {
-      "path": "assets/robot/appearance-1020/4b66222ea56653e62771.stl",
-      "bytes": 653784,
-      "sha256": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5"
+      "path": "assets/robot/appearance-1020/4b66222ea56653e62771.stl.gz",
+      "bytes": 303456,
+      "sha256": "16eec723054646f377326195dfb5fb1b6e47feebccd4ce832fda71efb43c06eb"
     },
     {
-      "path": "assets/robot/appearance-1020/4c254ef66a356f492947.stl",
-      "bytes": 192684,
-      "sha256": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6"
+      "path": "assets/robot/appearance-1020/4c254ef66a356f492947.stl.gz",
+      "bytes": 84472,
+      "sha256": "ec46cefc8ae574d220eca699dd073e63a7a3f6378e47cfaf8b33c10fd16e4f37"
     },
     {
-      "path": "assets/robot/appearance-1020/50122ebf6e75698ba2c4.stl",
-      "bytes": 334284,
-      "sha256": "50122ebf6e75698ba2c469efd58e07ad3f82b1a002728cd15802f1c435d54c0c"
+      "path": "assets/robot/appearance-1020/50122ebf6e75698ba2c4.stl.gz",
+      "bytes": 153533,
+      "sha256": "5a45d41ea8b6938f22bf1a8f8123e12e5c8c8b16be064ab25904d0807e4cd933"
     },
     {
-      "path": "assets/robot/appearance-1020/56d9f019bad093daf93a.stl",
-      "bytes": 333384,
-      "sha256": "56d9f019bad093daf93a736596ab4e7d9b17fb3c79e2be4181d909958cf76a37"
+      "path": "assets/robot/appearance-1020/56d9f019bad093daf93a.stl.gz",
+      "bytes": 153115,
+      "sha256": "87227ffccf6feabcaad856d497d9ce02f1814bda9a46334848ea97d8772a2b9e"
     },
     {
-      "path": "assets/robot/appearance-1020/5959c2ee4df1f14ae840.stl",
-      "bytes": 799184,
-      "sha256": "5959c2ee4df1f14ae8402411a26cba31544b49ae1402c96b204a72f3e086f7a4"
+      "path": "assets/robot/appearance-1020/5959c2ee4df1f14ae840.stl.gz",
+      "bytes": 373126,
+      "sha256": "3aa510644116ebeeda8dec0c862d696914b77db75100dd89f27919a565bb4cbe"
     },
     {
-      "path": "assets/robot/appearance-1020/5a23e6d7eddd9123d4ee.stl",
-      "bytes": 9552784,
-      "sha256": "5a23e6d7eddd9123d4eec177767815105110277ba192e6bed8eb268ca3a448af"
+      "path": "assets/robot/appearance-1020/5a23e6d7eddd9123d4ee.stl.gz",
+      "bytes": 4286476,
+      "sha256": "f3f927172986d2949a22fa1057f67d419ca99f42fb4368aeb9e2e7284c483b2b"
     },
     {
-      "path": "assets/robot/appearance-1020/5c4cbe6beddeb6e80c1a.stl",
-      "bytes": 123884,
-      "sha256": "5c4cbe6beddeb6e80c1a0ca26c787e4cb0627743b8a1d1c1e508294ff93fe58a"
+      "path": "assets/robot/appearance-1020/5c4cbe6beddeb6e80c1a.stl.gz",
+      "bytes": 56277,
+      "sha256": "da7db48374db67d3f1a23fe769040096d04c14066a318792c37256dc08dd634b"
     },
     {
-      "path": "assets/robot/appearance-1020/634d5c569628c3c2dbc9.stl",
-      "bytes": 408284,
-      "sha256": "634d5c569628c3c2dbc92932065748ed830fb17ccf933959a5834b2759ab8acd"
+      "path": "assets/robot/appearance-1020/634d5c569628c3c2dbc9.stl.gz",
+      "bytes": 186328,
+      "sha256": "14c42ad55881b8b815ae568e5f51bf460451c84d6c4949e0a389c1c216aee27b"
     },
     {
-      "path": "assets/robot/appearance-1020/63c4008449c9bbe701a6.stl",
-      "bytes": 852284,
-      "sha256": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8"
+      "path": "assets/robot/appearance-1020/63c4008449c9bbe701a6.stl.gz",
+      "bytes": 392403,
+      "sha256": "71a9463816f20f939cc64d877bebf58021f985ccaf1b0dac4f043a6d853e223a"
     },
     {
-      "path": "assets/robot/appearance-1020/72a18279e8a56408586e.stl",
-      "bytes": 25084,
-      "sha256": "72a18279e8a56408586e379a2762fa27b325c27423dd3731e1ea4e31360c27cc"
+      "path": "assets/robot/appearance-1020/72a18279e8a56408586e.stl.gz",
+      "bytes": 4412,
+      "sha256": "15ce9765a70e53cf3090f854be5d19b7a8f546447d74966943a33633e1e7f992"
     },
     {
-      "path": "assets/robot/appearance-1020/7357830cda11d9749adc.stl",
-      "bytes": 130584,
-      "sha256": "7357830cda11d9749adc1e796aa0e493f8001ac2c21815d40fdc1406a3b3457c"
+      "path": "assets/robot/appearance-1020/7357830cda11d9749adc.stl.gz",
+      "bytes": 58902,
+      "sha256": "50ef2fce21dc0be985e090374da8b386612003238844b9878f76f07d0f54e15d"
     },
     {
-      "path": "assets/robot/appearance-1020/77220c07d5bbc119cb82.stl",
-      "bytes": 281184,
-      "sha256": "77220c07d5bbc119cb828af89f35cb4cef755bbc98a1cae2dda846268ff59501"
+      "path": "assets/robot/appearance-1020/77220c07d5bbc119cb82.stl.gz",
+      "bytes": 129062,
+      "sha256": "2815dd0f4e406fbca103d4bc839344283ae45ffec2453f2adbdea61cd8447af2"
     },
     {
-      "path": "assets/robot/appearance-1020/821249c18a0cf66c87aa.stl",
-      "bytes": 99984,
-      "sha256": "821249c18a0cf66c87aa4029de1f0ce532f03e7a173c951a5121f2df3b301b52"
+      "path": "assets/robot/appearance-1020/821249c18a0cf66c87aa.stl.gz",
+      "bytes": 44532,
+      "sha256": "d09cda5a67e559882ff00b3d5708cb3024768f41da479dc7c1d834881f5640aa"
     },
     {
-      "path": "assets/robot/appearance-1020/850ad4ad9daf4188aa17.stl",
-      "bytes": 68584,
-      "sha256": "850ad4ad9daf4188aa17f96588fe5541fb0c70be10d714930b3cb816748258a0"
+      "path": "assets/robot/appearance-1020/850ad4ad9daf4188aa17.stl.gz",
+      "bytes": 30826,
+      "sha256": "281c4f3b5dfd34024a9d2113b09765d44482876e36b0c759e8290c31b16c7b6c"
     },
     {
-      "path": "assets/robot/appearance-1020/89c64252e891bc915672.stl",
-      "bytes": 281484,
-      "sha256": "89c64252e891bc91567241b74de18d986e20e4e57d74cd10289d7171f6c57dc6"
+      "path": "assets/robot/appearance-1020/89c64252e891bc915672.stl.gz",
+      "bytes": 129182,
+      "sha256": "38c0397690dd0e0411ab9d85843dc8c1f90ad2e02addd742b44e664ef9802274"
     },
     {
-      "path": "assets/robot/appearance-1020/8d92b9e3d3a636761150.stl",
-      "bytes": 854884,
-      "sha256": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477"
+      "path": "assets/robot/appearance-1020/8d92b9e3d3a636761150.stl.gz",
+      "bytes": 393720,
+      "sha256": "74fe38b5f7ce4e0805ddca4faf2a0dd8d46ff3668e2d8b33bb2753ebe11cfb7d"
     },
     {
-      "path": "assets/robot/appearance-1020/8f11ee9addab1a1eab40.stl",
-      "bytes": 408584,
-      "sha256": "8f11ee9addab1a1eab40fd765c21389e6f98397166ae5899dc83ddf66f871b3b"
+      "path": "assets/robot/appearance-1020/8f11ee9addab1a1eab40.stl.gz",
+      "bytes": 186565,
+      "sha256": "9a0538f3fedb2d29e4cfcc5e61d82b1e77d9576169c222aafd05d792af075c42"
     },
     {
-      "path": "assets/robot/appearance-1020/91f25922ee8a7c315279.stl",
-      "bytes": 192184,
-      "sha256": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf"
+      "path": "assets/robot/appearance-1020/91f25922ee8a7c315279.stl.gz",
+      "bytes": 84245,
+      "sha256": "e9d45074be6ea5633dcdacaedfeb2a48e266543749a9dfd66add54fc5a1e252b"
     },
     {
-      "path": "assets/robot/appearance-1020/94fdff414f1c29940495.stl",
-      "bytes": 339884,
-      "sha256": "94fdff414f1c29940495d1f0264a50621340cfc30f9b5365b3490d39ae367f2f"
+      "path": "assets/robot/appearance-1020/94fdff414f1c29940495.stl.gz",
+      "bytes": 156513,
+      "sha256": "77f5a2075912a22984bf6a7f9d157dfcd881517cb0b59d5dee05268fbd0f5a14"
     },
     {
-      "path": "assets/robot/appearance-1020/962b97c48f9ce9e8399f.stl",
-      "bytes": 401884,
-      "sha256": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81"
+      "path": "assets/robot/appearance-1020/962b97c48f9ce9e8399f.stl.gz",
+      "bytes": 181443,
+      "sha256": "90b59351535b88767948b5f06be0ba5882ba84dcca6071d67c66b2c494a99fbc"
     },
     {
-      "path": "assets/robot/appearance-1020/96ed796046634fead6ac.stl",
-      "bytes": 68584,
-      "sha256": "96ed796046634fead6ac789be979e3b013c3a6d32ba866a31ea92f7c3ebf19ee"
+      "path": "assets/robot/appearance-1020/96ed796046634fead6ac.stl.gz",
+      "bytes": 30832,
+      "sha256": "92a831cd891ea17eddea91a214b20ff6206eaa98a3256c373191437e036e09b4"
     },
     {
-      "path": "assets/robot/appearance-1020/99300669452dc8e34d5f.stl",
-      "bytes": 96284,
-      "sha256": "99300669452dc8e34d5f62caf31c9c769077af45e0127511cd0c56967fe691a6"
+      "path": "assets/robot/appearance-1020/99300669452dc8e34d5f.stl.gz",
+      "bytes": 44094,
+      "sha256": "5ea73a393703b6c9a11c93a9760d635a84f153666559d768032efd204bcfe317"
     },
     {
-      "path": "assets/robot/appearance-1020/9a249feb95d632aa648c.stl",
-      "bytes": 1751184,
-      "sha256": "9a249feb95d632aa648cd07757b2ccce6da36723875e7630fa75d66a4ae8f036"
+      "path": "assets/robot/appearance-1020/9a249feb95d632aa648c.stl.gz",
+      "bytes": 704818,
+      "sha256": "f76085de6eec5ca9f49f4729dc41bcfa7f9bcf58428f2682ed2e06c58fb58129"
     },
     {
-      "path": "assets/robot/appearance-1020/9ef0c934cf4351d857d1.stl",
-      "bytes": 27884,
-      "sha256": "9ef0c934cf4351d857d1415cc3fe534a773e6da97523ccc4a6bd059fb402b506"
+      "path": "assets/robot/appearance-1020/9ef0c934cf4351d857d1.stl.gz",
+      "bytes": 4873,
+      "sha256": "2e87e0d7955b716b246d9fd950afe81aee53d0241ff53d6be158cf306ad6772b"
     },
     {
-      "path": "assets/robot/appearance-1020/9f1408568638fbbec4cf.stl",
-      "bytes": 346784,
-      "sha256": "9f1408568638fbbec4cf32507d4b233fbd8cdb9c862e07cc7da6cd826497caa6"
+      "path": "assets/robot/appearance-1020/9f1408568638fbbec4cf.stl.gz",
+      "bytes": 158934,
+      "sha256": "47f8dd4572f0b4eec838c5192a71ee005b64001cb4d745a37c226a5c6f581511"
     },
     {
-      "path": "assets/robot/appearance-1020/9fb6699711444f1e1906.stl",
-      "bytes": 22369484,
-      "sha256": "9fb6699711444f1e1906754c4dae744cba122e3a49d244d68fb528cb6598bacb"
+      "path": "assets/robot/appearance-1020/9fb6699711444f1e1906.stl.gz",
+      "bytes": 7559343,
+      "sha256": "556168785e3be4e18a5a3a55a04ec9be94c477cdc1f8aabc2bd8b4b8bb037d1d"
     },
     {
-      "path": "assets/robot/appearance-1020/a0b76489271da0c72461.stl",
-      "bytes": 249984,
-      "sha256": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5"
+      "path": "assets/robot/appearance-1020/a0b76489271da0c72461.stl.gz",
+      "bytes": 109394,
+      "sha256": "aede8eeb767d43cf8cbfe77dfeb862c5778d8582279ed343d0e3e83ea5fc084c"
     },
     {
-      "path": "assets/robot/appearance-1020/a16d88aa6ddac8083aa7.stl",
-      "bytes": 296284,
-      "sha256": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b"
+      "path": "assets/robot/appearance-1020/a16d88aa6ddac8083aa7.stl.gz",
+      "bytes": 132139,
+      "sha256": "6f770e69a7171ef4e7d44d82a22730b7d37e3fadebbd8d8ad5cfe8afcb79d719"
     },
     {
-      "path": "assets/robot/appearance-1020/a7f7b054539a858173b3.stl",
-      "bytes": 99984,
-      "sha256": "a7f7b054539a858173b3e002be2df5ebc60a3e3d8bdf38e32f490a1475809251"
+      "path": "assets/robot/appearance-1020/a7f7b054539a858173b3.stl.gz",
+      "bytes": 44836,
+      "sha256": "d8f483a92b6cdb111945be734bff187aa1a3f8b3f3758de54106d9ec24fc630c"
     },
     {
-      "path": "assets/robot/appearance-1020/b0b2a3153c9cb576ef32.stl",
-      "bytes": 114084,
-      "sha256": "b0b2a3153c9cb576ef327145e9761db713a5083452c70b22899841365df75c56"
+      "path": "assets/robot/appearance-1020/b0b2a3153c9cb576ef32.stl.gz",
+      "bytes": 52311,
+      "sha256": "f5da1dfd140372a441dce46c48ad3d38a3059235b2870eb76c59bbb5c76c0a26"
     },
     {
-      "path": "assets/robot/appearance-1020/b67c347a05abc3e8ddae.stl",
-      "bytes": 85884,
-      "sha256": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97"
+      "path": "assets/robot/appearance-1020/b67c347a05abc3e8ddae.stl.gz",
+      "bytes": 32482,
+      "sha256": "f903e5ea41ce028b6462c2483719df1124c6777f2dca4ed99707c9cc6bab1cd9"
     },
     {
-      "path": "assets/robot/appearance-1020/bcd5279fb8a4d8ba4b06.stl",
-      "bytes": 771684,
-      "sha256": "bcd5279fb8a4d8ba4b06b3d302caa567fde9add81b057943cc6a445abb9e27b5"
+      "path": "assets/robot/appearance-1020/bcd5279fb8a4d8ba4b06.stl.gz",
+      "bytes": 348132,
+      "sha256": "beb17fbd82028a1c7c55f999c76d09eec44a0a686af985ccc05cad5534732408"
     },
     {
-      "path": "assets/robot/appearance-1020/c2fb7d2c4fb0df91209a.stl",
-      "bytes": 71584,
-      "sha256": "c2fb7d2c4fb0df91209ab7158d5f17ab59a7aa56522a9e91a3c3884a35ac6ae0"
+      "path": "assets/robot/appearance-1020/c2fb7d2c4fb0df91209a.stl.gz",
+      "bytes": 32001,
+      "sha256": "4b487a7279e03b96b9be9638138f1fb2142e3019c9fcd2257c38956993a54238"
     },
     {
-      "path": "assets/robot/appearance-1020/c4092af943141d4d9f74.stl",
-      "bytes": 653384,
-      "sha256": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f"
+      "path": "assets/robot/appearance-1020/c4092af943141d4d9f74.stl.gz",
+      "bytes": 303214,
+      "sha256": "1747fb3fcba6a5a95fb73bd1151d685ee9fac7350563e8596b612fdecd6e5f2d"
     },
     {
-      "path": "assets/robot/appearance-1020/c59b62ef04c9cb436f6a.stl",
-      "bytes": 529784,
-      "sha256": "c59b62ef04c9cb436f6a6bac5ae9be985eca0d538bc58380c40c00d16079d580"
+      "path": "assets/robot/appearance-1020/c59b62ef04c9cb436f6a.stl.gz",
+      "bytes": 240978,
+      "sha256": "26b25d30e1b666bc7560afed5d2b9c8da3ec90cf6bfcc50419f8886c5658e765"
     },
     {
-      "path": "assets/robot/appearance-1020/c91b30341a816ac079ec.stl",
-      "bytes": 69884,
-      "sha256": "c91b30341a816ac079ec1268c8427ca3a010356002a30b6847b2853a0edf1e6b"
+      "path": "assets/robot/appearance-1020/c91b30341a816ac079ec.stl.gz",
+      "bytes": 31187,
+      "sha256": "b93721bfd584c9791dd51d2f7c414fd692d22351dc43bd87a44500ebd15a245c"
     },
     {
-      "path": "assets/robot/appearance-1020/ccffe779ed683ec5c2f2.stl",
-      "bytes": 620384,
-      "sha256": "ccffe779ed683ec5c2f24e3776c11a127e341743142ddd8f275bfded76938da8"
+      "path": "assets/robot/appearance-1020/ccffe779ed683ec5c2f2.stl.gz",
+      "bytes": 283178,
+      "sha256": "b0a9b847a7af2558432bb4dd2ced870f2a820d08100d920ed01912dbbd5f9dfb"
     },
     {
-      "path": "assets/robot/appearance-1020/d49e3abc6f5b12e53206.stl",
-      "bytes": 71184,
-      "sha256": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d"
+      "path": "assets/robot/appearance-1020/d49e3abc6f5b12e53206.stl.gz",
+      "bytes": 30227,
+      "sha256": "a217776653145a8721cb750c89870cee9d1f090ca746dc38923e96a2be91306a"
     },
     {
-      "path": "assets/robot/appearance-1020/d52822897dcc0de60fff.stl",
-      "bytes": 554484,
-      "sha256": "d52822897dcc0de60fff7f2652a7d12a342b47905eff7555eaabcc1bcfcaeac4"
+      "path": "assets/robot/appearance-1020/d52822897dcc0de60fff.stl.gz",
+      "bytes": 253706,
+      "sha256": "b13a6f3f0f188823017d9ea3882d2510d56a2cf399313b6667d7907a3f32fa84"
     },
     {
-      "path": "assets/robot/appearance-1020/d9d2558da8369d2f0993.stl",
-      "bytes": 252684,
-      "sha256": "d9d2558da8369d2f0993e46eed3d1e2a11b4927ab2b8c1731d460b72fea04e9e"
+      "path": "assets/robot/appearance-1020/d9d2558da8369d2f0993.stl.gz",
+      "bytes": 114875,
+      "sha256": "e927ded30a3c562319edd8fcb61ce52a1428b9fcb6c6b7ce90cf112deacaf71f"
     },
     {
-      "path": "assets/robot/appearance-1020/e0ff6f648bbb7712bbc7.stl",
-      "bytes": 406584,
-      "sha256": "e0ff6f648bbb7712bbc7f06bacdd3a574cac2e1bc2398383b57da2d76c88932a"
+      "path": "assets/robot/appearance-1020/e0ff6f648bbb7712bbc7.stl.gz",
+      "bytes": 185155,
+      "sha256": "ebf803c76df5677cf49cc32c4cca0ccf684ba3e775c84bd7b6e319f297bb369e"
     },
     {
-      "path": "assets/robot/appearance-1020/e31a6aa8faf2be8a6bfc.stl",
-      "bytes": 125084,
-      "sha256": "e31a6aa8faf2be8a6bfc3f222ebe7cf59fb5266487d1d98b86a55a7a2524fc20"
+      "path": "assets/robot/appearance-1020/e31a6aa8faf2be8a6bfc.stl.gz",
+      "bytes": 56829,
+      "sha256": "53b8afef915045836e4b5c76f398b8bd66f1cb8d49adb40066eac0a9c2e6f246"
     },
     {
-      "path": "assets/robot/appearance-1020/e479c2936ca2057e9eb2.stl",
-      "bytes": 296284,
-      "sha256": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668"
+      "path": "assets/robot/appearance-1020/e479c2936ca2057e9eb2.stl.gz",
+      "bytes": 131780,
+      "sha256": "0291f39ed21734bab0a29b38a8835578c94001ab348a73e9234961b04c3121f0"
     },
     {
-      "path": "assets/robot/appearance-1020/e4f3c99d7f4a7d34eadb.stl",
-      "bytes": 181284,
-      "sha256": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6"
+      "path": "assets/robot/appearance-1020/e4f3c99d7f4a7d34eadb.stl.gz",
+      "bytes": 78638,
+      "sha256": "0ad795120146565cd7428d8d3ff1bfe26a26761d5c5dca6fb992f238a02f298d"
     },
     {
-      "path": "assets/robot/appearance-1020/ec6db442b11f25eed898.stl",
-      "bytes": 619984,
-      "sha256": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c"
+      "path": "assets/robot/appearance-1020/ec6db442b11f25eed898.stl.gz",
+      "bytes": 221496,
+      "sha256": "b9eebf8741daf4cd3f0eda330139b222d3d0e0457bc2ac2ee05f71b982232467"
     },
     {
-      "path": "assets/robot/appearance-1020/f0d1cfd02fcf0d42f95e.stl",
-      "bytes": 176784,
-      "sha256": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52"
+      "path": "assets/robot/appearance-1020/f0d1cfd02fcf0d42f95e.stl.gz",
+      "bytes": 78226,
+      "sha256": "a5ccff5f5359faa2d8919ce0dfae16fea23fecfdb6ff45fc745fd735cb967f47"
     },
     {
-      "path": "assets/robot/appearance-1020/f489da4e47935510ffba.stl",
-      "bytes": 95834,
-      "sha256": "f489da4e47935510ffba42016052318f123ef07360fdbbfaadcb0f7d8ddbe28f"
+      "path": "assets/robot/appearance-1020/f489da4e47935510ffba.stl.gz",
+      "bytes": 43724,
+      "sha256": "69828b23a9e343c5f1d7a4c220d7b06016b22a92eb411ccf036c08684f51844e"
     },
     {
-      "path": "assets/robot/appearance-1020/f9c0ac36994b014d25b7.stl",
-      "bytes": 71584,
-      "sha256": "f9c0ac36994b014d25b7d5c292cbd39192e5146c8961ded1e8a9702e2d4e62c2"
+      "path": "assets/robot/appearance-1020/f9c0ac36994b014d25b7.stl.gz",
+      "bytes": 32002,
+      "sha256": "5f1365ab0574dd528725f426b3492dd2b7e8faef3b5a4fdc768c1c8d6f4ca31a"
     },
     {
-      "path": "assets/robot/appearance-1020/fa752198accd104d5c4c.stl",
-      "bytes": 88784,
-      "sha256": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3"
+      "path": "assets/robot/appearance-1020/fa752198accd104d5c4c.stl.gz",
+      "bytes": 39925,
+      "sha256": "e1b277dd5e5da375f7a523cd98ef9235bc9700e5727438d6e8649443e625fcb2"
     },
     {
-      "path": "assets/robot/appearance-1020/fb9df21687773522598d.stl",
-      "bytes": 400284,
-      "sha256": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88"
+      "path": "assets/robot/appearance-1020/fb9df21687773522598d.stl.gz",
+      "bytes": 179843,
+      "sha256": "c9853978b62c3637f4a475ae5c1e525f0034c37eff05901b3b29eaa723bd3c3d"
     },
     {
       "path": "assets/robot/meshes/83f8fb3a726bf9613d65.stl",
@@ -627,14 +633,14 @@
       "sha256": "a2d70baaf5247c734ec31174628f2eb989b10c5a25e74610e093737d60ceee5e"
     },
     {
-      "path": "assets/sim.worker-CkwiERIj.js",
-      "bytes": 205323,
-      "sha256": "01b3ae9242d31206315c249a4f0cb5279d845a33e377458dcb121409ba7faee1"
+      "path": "assets/sim.worker-B2q0D_ik.js",
+      "bytes": 210398,
+      "sha256": "904ea8518b528ff4449728888886f51ee3c78b34049eea9bd124d57b183083b7"
     },
     {
       "path": "index.html",
       "bytes": 796,
-      "sha256": "640b918cab40909bfb0baf8769c9cd7f0b7a74b516764fa4dd7fa1e9e5aa2ef8"
+      "sha256": "518cdc4f8dacd40837c510b9a0f644b358e310de7b56e748f8766f2e0f98b185"
     },
     {
       "path": "licenses/mujoco-Apache-2.0.txt",
