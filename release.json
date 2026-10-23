@@ -1,7 +1,7 @@
 {
   "hosting": "GitHub Pages",
   "runtimeSource": "S0/online_demo on feature/s0_online_demo",
-  "runtimeSourceCommit": "3a612fdf843bfb8c149ba9949473c339f457963d",
+  "runtimeSourceCommit": "9a5c8a5a1a49148f2ec223d4268746a3e2d6e799",
   "modelSha256": "e4f393a62ceb64d14fe310dd8f1ac7f9790f945ef22708074ce9e383d0928f3c",
   "modelReconstructionExact": true,
   "visualCompression": {
@@ -28,14 +28,14 @@
       "sha256": "c6ae1266f43046111d0759394026735c2267c8cd965f113f1c379469e411600c"
     },
     {
-      "path": "assets/index-BnYp-7F8.js",
-      "bytes": 583124,
-      "sha256": "b78792e68eff252837344358500da64b017a5ca98e00f9e155e20be71e3587f9"
+      "path": "assets/index-Dlg5Cm-O.js",
+      "bytes": 583383,
+      "sha256": "5e69e54dfea92fb7bc024e516ab2401590848d1ace7a25c49799be2ad93241e6"
     },
     {
       "path": "assets/manifest.json",
-      "bytes": 128394,
-      "sha256": "c500b3bc12f89f3533a390bcd1369d6f9d00f9ceba51c90a2760025e437ea4da"
+      "bytes": 133222,
+      "sha256": "6a17d9869e848aa1dcd5ec0a9c3939b43887cc3f8dcaf0b05ae79be57d512f5d"
     },
     {
       "path": "assets/models/test052-20k-e4f393a62ceb.part-00.bin",
@@ -56,6 +56,21 @@
       "path": "assets/models/test052-20k-e4f393a62ceb.part-03.bin",
       "bytes": 4760652,
       "sha256": "5c742a0b251f1b15afb19c961c987dea5dbc7d0a7489ae9e91d8180591b36ffc"
+    },
+    {
+      "path": "assets/motions/chingmu-gt-take-007-lizhe.json",
+      "bytes": 287721,
+      "sha256": "e4bc3185cae5e0d5bb6457c21e4f7ac87093997d31bd9cf92731b85ba1828cf9"
+    },
+    {
+      "path": "assets/motions/chingmu-lzt-take-016-lizhe.json",
+      "bytes": 198871,
+      "sha256": "96bc8ffb6019b6c74be566bec32642276a012f19f5aca214233a8c08add45eb7"
+    },
+    {
+      "path": "assets/motions/chingmu-shanshenbu-1-take-006-lizhe.json",
+      "bytes": 93086,
+      "sha256": "4f7e8d6bc1730ec886a8bb127441d6b129b7dff500c1ccca08b944042bede390"
     },
     {
       "path": "assets/motions/lateral-r2-052.json",
@@ -640,7 +655,7 @@
     {
       "path": "index.html",
       "bytes": 796,
-      "sha256": "518cdc4f8dacd40837c510b9a0f644b358e310de7b56e748f8766f2e0f98b185"
+      "sha256": "a6e2f2a20974c36403d4ee7feb523049c73573bcd9c2395e59ce7afe93571622"
     },
     {
       "path": "licenses/mujoco-Apache-2.0.txt",
